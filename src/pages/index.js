@@ -111,7 +111,7 @@ Finland
 						<Text as="h3" font="--headline3" margin="0 0 20px 0">
 							Leave us message
 						</Text>
-						<Formspree endpoint="https://formspree.io/f/mwkalapg">
+						<Formspree endpoint="https://formspree.io/f/mwkalapg" completeText="Thank you for message!">
 							<Stack gap="16px">
 								<StackItem width="100%">
 									<Override slot="StackItemContent" flex-direction="column" />
