@@ -16,7 +16,7 @@ export default {
 		},
 		"60a42e2413e4b0001f82a132": {
 			"id": "60a42e2413e4b0001f82a132",
-			"name": "index",
+			"name": "Home",
 			"pageUrl": "index"
 		}
 	},
