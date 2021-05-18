@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, Menu, Section } from "@quarkly/components";
+import { RawHtml, Override, Menu, Section } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -81,5 +81,14 @@ export default (() => {
 		>
 			Made on Quarkly
 		</Link>
+		<RawHtml>
+			<meta
+				charset={""}
+				name={"yandex-verification"}
+				content={"d655255f04a7954a"}
+				place={"endOfHead"}
+				rawKey={"60a434f8beb9acc727daae7f"}
+			/>
+		</RawHtml>
 	</Theme>;
 });
