@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Icon, Box, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Text, Section, Icon, Box, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Section, Override, StackItem, Stack, Formspree } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Stack, Formspree } from "@quarkly/components";
 import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
@@ -12,7 +12,7 @@ export default (() => {
 			<title>
 				Elikuz Media
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
+			<meta name={"description"} content={"Elikuz Media"} />
 			<meta property={"og:title"} content={"Elikuz Media"} />
 			<meta property={"og:description"} content={"Elisey Kuziakin"} />
 			<meta property={"og:image"} content={"https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"} />

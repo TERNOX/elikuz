@@ -31,7 +31,10 @@ export default {
 		"styles": {},
 		"seo": {
 			"title": "Elikuz Media",
-			"og:title": "Elikuz Media"
+			"og:title": "Elikuz Media",
+			"description": "Elikuz Media",
+			"og:description": "Elikuz Media",
+			"og:image": "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
 		}
 	}
 }
