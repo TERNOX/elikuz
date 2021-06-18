@@ -4,6 +4,7 @@ import { Theme, Link, Text, Section, Icon, Box, Input, Button } from "@quarkly/w
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Formspree } from "@quarkly/components";
+import * as Components from "components";
 import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
@@ -148,6 +149,24 @@ Finland
 				</StackItem>
 			</Stack>
 		</Section>
+		<Components.QuarklycommunityKitGallery
+			galleryItemNumbProp="8"
+			columnsCountProp="4"
+			hideLoaderPreviewImage={false}
+			hideLoaderFullImage={false}
+			offScrollProp
+			autoFillInProp
+		>
+			<Override slot="Item 0" fullSrc="https://images.unsplash.com/photo-1622495546876-3fccb94d3e2c?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000" fullSrcSet="https://images.unsplash.com/photo-1622495546876-3fccb94d3e2c?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000" />
+			<Override slot="Item 1" fullSrc="https://images.unsplash.com/photo-1606787620651-3f8e15e00662?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000" />
+			<Override slot="Item" fullSrc="https://images.unsplash.com/photo-1624044153121-cd49214df3ec?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000" fullSrcSet="https://images.unsplash.com/photo-1624044153121-cd49214df3ec?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000" />
+			<Override slot="Item 2" fullSrc="https://images.unsplash.com/photo-1623956735844-bcac41372586?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000" fullSrcSet="https://images.unsplash.com/photo-1624044153121-cd49214df3ec?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000" />
+			<Override slot="Item 3" fullSrc="https://images.unsplash.com/photo-1623947804329-814d02fe6015?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000" fullSrcSet="https://images.unsplash.com/photo-1624044153121-cd49214df3ec?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000" />
+			<Override slot="Item 4" fullSrc="https://images.unsplash.com/photo-1611097313108-13b2783a2b2d?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000" fullSrcSet="https://images.unsplash.com/photo-1624044153121-cd49214df3ec?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000" />
+			<Override slot="Item 5" fullSrc="https://images.unsplash.com/flagged/photo-1591409585805-c9df72ec382f?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000" fullSrcSet="https://images.unsplash.com/photo-1624044153121-cd49214df3ec?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000" />
+			<Override slot="Item 6" fullSrc="https://images.unsplash.com/photo-1623851692991-99f2c8430a60?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000" fullSrcSet="https://images.unsplash.com/photo-1624044153121-cd49214df3ec?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000" />
+			<Override slot="Item 7" fullSrc="https://images.unsplash.com/photo-1623944985624-0eafb01fd4d3?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000" fullSrcSet="https://images.unsplash.com/photo-1624044153121-cd49214df3ec?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000" />
+		</Components.QuarklycommunityKitGallery>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
