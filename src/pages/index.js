@@ -1,10 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Section, Icon, Box, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, Box, Section, Icon, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Formspree } from "@quarkly/components";
-import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
+import { MdAccessibility, MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -19,12 +19,26 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/avtoru.png?v=2021-05-18T22:17:29.879Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Section>
-			<Text margin="0px 0 24px 0" text-align="center" font="--headline1" md-font="--headline3">
-				Elikuz Media
-			</Text>
-			<Text margin="0px 0 24px 0" text-align="center" font="--headline3" md-font="--headline3">
-				Elisey Kuziakin
-			</Text>
+			<Box
+				display="flex"
+				padding="12px 0 12px 0"
+				justify-content="space-between"
+				align-items="center"
+				md-flex-direction="column"
+				text-align="center"
+				align-self="baseline"
+			>
+				<Image width="77pxт" height="81px" src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z" />
+				<Text
+					margin="0px 0 0px 0"
+					text-align="center"
+					font="--headline1"
+					md-font="--headline3"
+					padding="0px 0px 0px 15px"
+				>
+					Elikuz Media
+				</Text>
+			</Box>
 		</Section>
 		<Section
 			color="--light"
@@ -36,6 +50,25 @@ export default (() => {
 			<Stack>
 				<StackItem width="50%" md-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
+					<Box
+						padding="0 0 0 64px"
+						sm-padding="64px 0 0 0"
+						margin="32px 0 0 0"
+						max-width="360px"
+						position="relative"
+					>
+						<Icon
+							position="absolute"
+							size="48px"
+							top="0"
+							left="0"
+							category="md"
+							icon={MdAccessibility}
+						/>
+						<Text as="p" margin="6px 0" font="--headline3">
+							Elisey Kuziakin{"\n\n"}
+						</Text>
+					</Box>
 					<Box
 						padding="0 0 0 64px"
 						sm-padding="64px 0 0 0"
