@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Text, Box, Section } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, Menu, StackItem, Stack } from "@quarkly/components";
+import { RawHtml, StackItem, Stack } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -18,43 +18,7 @@ export default (() => {
 			<meta property={"og:image"} content={"https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/avtoru.png?v=2021-05-18T22:17:29.879Z"} type={"image/x-icon"} />
 		</Helmet>
-		<Section>
-			<Box
-				display="flex"
-				padding="12px 0 12px 0"
-				justify-content="space-between"
-				align-items="center"
-				md-flex-direction="column"
-				text-align="center"
-				align-self="baseline"
-			>
-				<Image width="77pxт" height="81px" src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z" />
-				<Text
-					margin="0px 0 0px 0"
-					text-align="center"
-					font="--headline1"
-					md-font="--headline3"
-					padding="0px 0px 0px 15px"
-				>
-					Elikuz Media
-				</Text>
-			</Box>
-			<Menu
-				display="flex"
-				justify-content="center"
-				font="--base"
-				font-weight="700"
-				md-flex-direction="column"
-				md-align-items="center"
-			>
-				<Override slot="link" text-decoration="none" color="--dark" padding="6px 12px" />
-				<Override slot="link-active" color="--primary" />
-				<Override slot="item" padding="6px" />
-				<Override slot="link-videointi">
-					Videointi
-				</Override>
-			</Menu>
-		</Section>
+		<Components.Menuu />
 		<Section
 			padding="140px 0"
 			sm-padding="40px 0"
