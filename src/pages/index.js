@@ -1,10 +1,11 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Section } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, StackItem, Stack } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
 import * as Components from "components";
+import { IoIosArrowDown } from "react-icons/io";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -23,7 +24,69 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
 		</Helmet>
-		<Components.Menuu />
+		<Section font="16px ">
+			<Box
+				display="flex"
+				padding="12px 0 12px 0"
+				justify-content="space-between"
+				align-items="center"
+				md-flex-direction="column"
+				text-align="center"
+				align-self="baseline"
+			>
+				<Image width="77pxт" height="81px" src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z" />
+				<Text
+					margin="0px 0 0px 0"
+					text-align="center"
+					font="--headline1"
+					md-font="--headline3"
+					padding="0px 0px 0px 15px"
+				>
+					Elikuz Media
+				</Text>
+			</Box>
+		</Section>
+		<Components.QuarklycommunityKitMenuWithGroups
+			tabState="collapseAll"
+			text-align="left"
+			flex-direction="row"
+			display="flex"
+			font="normal 700 20px/1.5 --fontFamily-sans"
+			align-content="center"
+			justify-content="center"
+			color="#000000"
+		>
+			<Override slot="Sub Head Text-videointi">
+				Videointi
+			</Override>
+			<Override slot="Item" border-color="#000000" />
+			<Override
+				slot="Link"
+				text-decoration-line="initial"
+				active-border-color="#000000"
+				border-color="#000000"
+				display="block"
+			/>
+			<Override slot="Item-404" display="none" />
+			<Override slot="Item :active" color="#000000" />
+			<Override slot="Link-videointi" display="none" />
+			<Override slot="Sub Head Text-valokuvaus">
+				Valokuvaus
+			</Override>
+			<Override slot="Link-valokuvaus" display="none" />
+			<Override slot="Sub Head Text-yhden-henkilon-kuvaus">
+				Yhden henkilön kuvaus
+			</Override>
+			<Override slot="Sub Head Text-monen-henkilon-kuvaus">
+				Monen henkilön kuvaus
+			</Override>
+			<Override slot="Link-monen-henkilon-kuvaus" display="none" />
+			<Override slot="Sub Head Text-promokuvaus">
+				Promokuvaus
+			</Override>
+			<Override slot="Link-promokuvaus" display="none" />
+			<Override slot="Sub Head Icon" category="io" icon={IoIosArrowDown} />
+		</Components.QuarklycommunityKitMenuWithGroups>
 		<Section
 			padding="140px 0"
 			sm-padding="40px 0"

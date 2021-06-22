@@ -1,7 +1,9 @@
 import React from "react";
 import { useOverrides, Override, Menu } from "@quarkly/components";
 import { Image, Text, Box, Section } from "@quarkly/widgets";
-const defaultProps = {};
+const defaultProps = {
+	"font": "16px "
+};
 const overrides = {
 	"box": {
 		"kind": "Box",
