@@ -6,7 +6,8 @@ export default {
 			"name": "root",
 			"children": [
 				"60a42e2413e4b0001f82a130",
-				"60a42e2413e4b0001f82a132"
+				"60a42e2413e4b0001f82a132",
+				"60d24909d3d3a2001e2ad152"
 			]
 		},
 		"60a42e2413e4b0001f82a130": {
@@ -23,6 +24,19 @@ export default {
 				"og:image": "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000",
 				"favicon_32px": "https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/avtoru.png?v=2021-05-18T22:17:29.879Z"
 			}
+		},
+		"60d24909d3d3a2001e2ad152": {
+			"id": "60d24909d3d3a2001e2ad152",
+			"pageUrl": "videointi",
+			"name": "Videointi",
+			"children": [
+				"60d2490fd3d3a2001e2ad154"
+			]
+		},
+		"60d2490fd3d3a2001e2ad154": {
+			"id": "60d2490fd3d3a2001e2ad154",
+			"pageUrl": "musiikkivideon-tekeminen",
+			"name": "Musiikkivideon tekeminen"
 		}
 	},
 	"mode": "production",

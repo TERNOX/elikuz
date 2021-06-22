@@ -1,10 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Text, Box, Section, Icon, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, StackItem, Stack, Formspree } from "@quarkly/components";
-import { MdAccessibility, MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
+import { RawHtml, Override, Menu, StackItem, Stack } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -39,148 +39,75 @@ export default (() => {
 					Elikuz Media
 				</Text>
 			</Box>
+			<Menu
+				display="flex"
+				justify-content="center"
+				font="--base"
+				font-weight="700"
+				md-flex-direction="column"
+				md-align-items="center"
+			>
+				<Override slot="link" text-decoration="none" color="--dark" padding="6px 12px" />
+				<Override slot="link-active" color="--primary" />
+				<Override slot="item" padding="6px" />
+				<Override slot="link-videointi">
+					Videointi
+				</Override>
+			</Menu>
 		</Section>
 		<Section
-			color="--light"
-			padding="100px 0"
+			padding="140px 0"
 			sm-padding="40px 0"
-			position="relative"
-			background="linear-gradient(0deg,rgba(25, 30, 34, 0.8) 0%,rgba(25, 30, 34, 0.8) 100%),--color-darkL2 url(https://images.unsplash.com/photo-1547619292-240402b5ae5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)"
+			background="linear-gradient(0deg,rgba(0,0,0,.2) 0%,rgba(0,0,0,.2) 100%),--color-dark url(https://images.unsplash.com/photo-1624378804433-656379d28147?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 50% 15%/cover"
+			color="--light"
+			font="--base"
+			hover-background="--color-dark url(https://images.unsplash.com/photo-1624378804433-656379d28147?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 50% 15%/cover"
 		>
+			<Box>
+				<Text
+					as="h1"
+					margin="0 0 96px 0"
+					text-align="center"
+					letter-spacing="50px"
+					text-transform="uppercase"
+					font="100 132px/1.2 --fontFamily-sans"
+					lg-font="200 42px/1.2 --fontFamily-sans"
+					lg-letter-spacing="20px"
+				>
+					Elikuz Media{"\n\n"}
+				</Text>
+			</Box>
 			<Stack>
-				<StackItem width="50%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box
-						padding="0 0 0 64px"
-						sm-padding="64px 0 0 0"
-						margin="32px 0 0 0"
-						max-width="360px"
-						position="relative"
-					>
-						<Icon
-							position="absolute"
-							size="48px"
-							top="0"
-							left="0"
-							category="md"
-							icon={MdAccessibility}
-						/>
-						<Text as="p" margin="6px 0" font="--headline3">
-							Elisey Kuziakin{"\n\n"}
-						</Text>
-					</Box>
-					<Box
-						padding="0 0 0 64px"
-						sm-padding="64px 0 0 0"
-						margin="32px 0 0 0"
-						max-width="360px"
-						position="relative"
-					>
-						<Icon
-							position="absolute"
-							size="48px"
-							top="0"
-							left="0"
-							category="md"
-							icon={MdLocationOn}
-						/>
-						<Text as="h4" margin="6px 0" font="--base">
-							Visit us
-						</Text>
-						<Text as="p" margin="6px 0" font="--headline3">
-							Uusikatu 72, A 22
-Oulu
-Pohjois-Pohjanmaa
-Finland
-90120
-						</Text>
-					</Box>
-					<Box
-						padding="0 0 0 64px"
-						sm-padding="64px 0 0 0"
-						margin="64px 0 0 0"
-						max-width="360px"
-						position="relative"
-					>
-						<Icon
-							position="absolute"
-							size="48px"
-							top="0"
-							left="0"
-							category="md"
-							icon={MdEmail}
-						/>
-						<Text as="h4" margin="6px 0" font="--base">
-							Email us
-						</Text>
-						<Text as="p" margin="6px 0" font="--headline3">
-							<Link href="mailto:hello@company.com" text-decoration="none" hover-text-decoration="underline" color="--light">
-								contact@elikuz.com
-							</Link>
-						</Text>
-					</Box>
-					<Box padding="0 0 0 64px" margin="64px 0 0 0" max-width="360px" position="relative">
-						<Icon
-							position="absolute"
-							size="48px"
-							top="0"
-							left="0"
-							category="md"
-							icon={MdPhone}
-						/>
-						<Text as="h4" margin="6px 0" font="--base">
-							Call us
-						</Text>
-						<Text as="p" margin="6px 0" font="--headline3">
-							+358465553684
-						</Text>
-					</Box>
+				<StackItem
+					width="25%"
+					lg-width="50%"
+					sm-width="100%"
+					font="--lead"
+					text-transform="uppercase"
+					letter-spacing="1px"
+				>
+					<Text margin="0px">
+						Etusivu
+					</Text>
 				</StackItem>
-				<StackItem width="50%" md-width="100%">
-					<Box
-						max-width="360px"
-						padding="56px 48px"
-						margin="0 0 0 auto"
-						md-max-width="100%"
-						background="--color-primary"
-					>
-						<Text as="h3" font="--headline3" margin="0 0 20px 0">
-							Leave us message
-						</Text>
-						<Formspree endpoint="https://formspree.io/f/mwkalapg" completeText="Thank you for message!">
-							<Stack gap="16px">
-								<StackItem width="100%">
-									<Override slot="StackItemContent" flex-direction="column" />
-									<Text font="--base" margin="0 0 4px 0">
-										Name
-									</Text>
-									<Input width="100%" name="name" />
-								</StackItem>
-								<StackItem width="100%">
-									<Override slot="StackItemContent" flex-direction="column" />
-									<Text font="--base" margin="0 0 4px 0">
-										Email
-									</Text>
-									<Input width="100%" type="email" name="email" />
-								</StackItem>
-								<StackItem width="100%">
-									<Override slot="StackItemContent" flex-direction="column" />
-									<Text font="--base" margin="0 0 4px 0">
-										Message
-									</Text>
-									<Input as="textarea" rows="4" width="100%" name="message" />
-								</StackItem>
-								<StackItem width="100%">
-									<Button background="--color-dark">
-										Send
-									</Button>
-								</StackItem>
-							</Stack>
-						</Formspree>
-					</Box>
+				<StackItem width="25%" lg-width="50%" sm-width="100%">
+					<Text margin="0px">
+						ELIKUZ Media on oululainen toiminimi, joka tarjoaa monipuolista audiovisuaalista sisältöä. Olen jo monta vuotta ammattilainen video- ja valokuvatuottaja sekä säveltäjä ja käsikirjoittaja.{" "}
+					</Text>
+				</StackItem>
+				<StackItem width="25%" lg-width="50%" sm-width="100%">
+					<Text margin="0px">
+						Voit reippasti tilata minulta valokuvauspalveluja, musiikki- ja mainos videoita sekä musiikkia yksityisille ihmisille ja yrityksille. Teen kuvauksia sekä omassa kotistudiossa että missä tahansa studion ulkopuolella.{" "}
+					</Text>
+				</StackItem>
+				<StackItem width="25%" lg-width="50%" sm-width="100%">
+					<Text margin="0px">
+						Kun yritys on aika nuori vielä, tarjoan omia palveluita aika edullisimalla hinnalla ja olen avoinna henkilökohtaisiin etuihin.
+					</Text>
 				</StackItem>
 			</Stack>
 		</Section>
+		<Components.Footer />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
