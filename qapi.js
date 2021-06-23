@@ -65,7 +65,10 @@ export default {
 		"60d262631dbc47001fe4e79f": {
 			"id": "60d262631dbc47001fe4e79f",
 			"pageUrl": "tapahtuman-videointi",
-			"name": "Tapahtuman videointi"
+			"name": "Tapahtuman videointi",
+			"seo": {
+				"title": "Elikuz Media - Tapahtuman videointi"
+			}
 		},
 		"60d26269d3d3a2001e2ad178": {
 			"id": "60d26269d3d3a2001e2ad178",
@@ -83,7 +86,10 @@ export default {
 		"60d26270625b88001ed84801": {
 			"id": "60d26270625b88001ed84801",
 			"pageUrl": "tuotekuvaus",
-			"name": "Tuotekuvaus"
+			"name": "Tuotekuvaus",
+			"seo": {
+				"title": "Elikuz Media - Tuotekuvaus"
+			}
 		},
 		"60d2627bd3d3a2001e2ad17e": {
 			"id": "60d2627bd3d3a2001e2ad17e",
@@ -98,7 +104,10 @@ export default {
 		"60d2628439274b001e1cbc27": {
 			"id": "60d2628439274b001e1cbc27",
 			"pageUrl": "muotokuvaus-studiossa",
-			"name": "Muotokuvaus studiossa"
+			"name": "Muotokuvaus studiossa",
+			"seo": {
+				"title": "Elikuz Media - Muotokuvaus studiossa"
+			}
 		},
 		"60d2628e42a3a0001ee77f24": {
 			"id": "60d2628e42a3a0001ee77f24",
@@ -108,7 +117,10 @@ export default {
 		"60d26294055903001fd69328": {
 			"id": "60d26294055903001fd69328",
 			"pageUrl": "henkilokuvaus-miljoossa",
-			"name": "Henkilökuvaus miljöössä"
+			"name": "Henkilökuvaus miljöössä",
+			"seo": {
+				"title": "Elikuz Media - Henkilökuvaus miljöössä"
+			}
 		},
 		"60d26299d3d3a2001e2ad182": {
 			"id": "60d26299d3d3a2001e2ad182",

@@ -10,7 +10,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"valokuvaus/yhden-henkilon-kuvaus/muotokuvaus-studiossa"} />
 		<Helmet>
 			<title>
-				Elikuz Media
+				Elikuz Media - Muotokuvaus studiossa
 			</title>
 			<meta name={"description"} content={"Elikuz Media"} />
 			<meta property={"og:title"} content={"Elikuz Media"} />
@@ -64,13 +64,13 @@ export default (() => {
 				Varaa aika kuvaukseen puh. 046 555 3684 tai contact@elikuz.com avulla
 			</Text>
 		</Section>
-		<Components.Footerendd />
 		<Components.QuarklycommunityKitGallery
 			galleryItemNumbProp="7"
 			columnsCountProp="4"
 			borderWidthProp="0"
 			loaderFormatProp="all"
-			aspectRatioProp="4:3"
+			aspectRatioProp="1:1"
+			autoFillInProp
 		>
 			<Override
 				slot="Item 0"
@@ -93,6 +93,7 @@ export default (() => {
 			<Override slot="Item 5" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/6%20%282%29.jpg?v=2021-06-23T18:04:08.862Z" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/6%20%282%29.jpg?v=2021-06-23T18:04:08.862Z" previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/6%20%282%29.jpg?v=2021-06-23T18:04:08.862Z" />
 			<Override slot="Item 6" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/7.jpg?v=2021-06-23T18:04:17.339Z" />
 		</Components.QuarklycommunityKitGallery>
+		<Components.Footerendd />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

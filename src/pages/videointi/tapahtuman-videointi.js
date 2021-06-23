@@ -10,7 +10,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"videointi/tapahtuman-videointi"} />
 		<Helmet>
 			<title>
-				Elikuz Media
+				Elikuz Media - Tapahtuman videointi
 			</title>
 			<meta name={"description"} content={"Elikuz Media"} />
 			<meta property={"og:title"} content={"Elikuz Media"} />

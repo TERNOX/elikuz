@@ -1,5 +1,5 @@
 export { default as Top } from "./Top"
 export { default as QuarklycommunityKitMenuWithGroups } from "./QuarklycommunityKitMenuWithGroups"
 export { default as Footerendd } from "./Footerendd"
-export { default as Menuu } from "./Menuu"
 export { default as QuarklycommunityKitGallery } from "./QuarklycommunityKitGallery"
+export { default as Infa } from "./Infa"
