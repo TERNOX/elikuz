@@ -3,28 +3,72 @@ import { transformVar } from "@quarkly/atomize";
 import { createGlobalStyle } from "styled-components";
 
 const pageStyles = {
-    "404": {},
-    "index": {},
-    "videointi": {},
-    "videointi/musiikkivideon-tekeminen": {},
-    "videointi/lyhyt-mainos": {},
-    "videointi/pitka-mainos": {},
-    "videointi/tapahtuman-videointi": {},
-    "valokuvaus": {},
-    "valokuvaus/tuotekuvaus": {},
-    "valokuvaus/yhden-henkilon-kuvaus": {},
-    "valokuvaus/yhden-henkilon-kuvaus/muotokuvaus-studiossa": {},
-    "valokuvaus/yhden-henkilon-kuvaus/lavastettu-kuvaus-studiossa": {},
-    "valokuvaus/yhden-henkilon-kuvaus/henkilokuvaus-miljoossa": {},
-    "valokuvaus/monen-henkilon-kuvaus": {},
-    "valokuvaus/monen-henkilon-kuvaus/pari-ja-perhekuvaus-studiossa": {},
-    "valokuvaus/monen-henkilon-kuvaus/lavastettu-pari-ja-perhekuvaus-studiossa": {},
-    "valokuvaus/monen-henkilon-kuvaus/pari-ja-perhekuvaus-miljoossa": {},
-    "valokuvaus/promokuvaus": {},
-    "valokuvaus/promokuvaus/promokuvaus-studiossa": {},
-    "valokuvaus/promokuvaus/promokuvaus-miljoossa": {},
-    "valokuvaus/tapahtuman-valokuvaus": {},
-    "valokuvaus/kuvankasittely": {}
+    "404": {
+        "color": ""
+    },
+    "index": {
+        "color": ""
+    },
+    "videointi": {
+        "color": ""
+    },
+    "videointi/musiikkivideon-tekeminen": {
+        "color": ""
+    },
+    "videointi/lyhyt-mainos": {
+        "color": ""
+    },
+    "videointi/pitka-mainos": {
+        "color": ""
+    },
+    "videointi/tapahtuman-videointi": {
+        "color": ""
+    },
+    "valokuvaus": {
+        "color": ""
+    },
+    "valokuvaus/tuotekuvaus": {
+        "color": ""
+    },
+    "valokuvaus/yhden-henkilon-kuvaus": {
+        "color": ""
+    },
+    "valokuvaus/yhden-henkilon-kuvaus/muotokuvaus-studiossa": {
+        "color": ""
+    },
+    "valokuvaus/yhden-henkilon-kuvaus/lavastettu-kuvaus-studiossa": {
+        "color": ""
+    },
+    "valokuvaus/yhden-henkilon-kuvaus/henkilokuvaus-miljoossa": {
+        "color": ""
+    },
+    "valokuvaus/monen-henkilon-kuvaus": {
+        "color": ""
+    },
+    "valokuvaus/monen-henkilon-kuvaus/pari-ja-perhekuvaus-studiossa": {
+        "color": ""
+    },
+    "valokuvaus/monen-henkilon-kuvaus/lavastettu-pari-ja-perhekuvaus-studiossa": {
+        "color": ""
+    },
+    "valokuvaus/monen-henkilon-kuvaus/pari-ja-perhekuvaus-miljoossa": {
+        "color": ""
+    },
+    "valokuvaus/promokuvaus": {
+        "color": ""
+    },
+    "valokuvaus/promokuvaus/promokuvaus-studiossa": {
+        "color": ""
+    },
+    "valokuvaus/promokuvaus/promokuvaus-miljoossa": {
+        "color": ""
+    },
+    "valokuvaus/tapahtuman-valokuvaus": {
+        "color": ""
+    },
+    "valokuvaus/kuvankasittely": {
+        "color": ""
+    }
 };
 
 const PageStyles = createGlobalStyle`

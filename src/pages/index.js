@@ -45,48 +45,48 @@ export default (() => {
 					Elikuz Media
 				</Text>
 			</Box>
+			<Components.QuarklycommunityKitMenuWithGroups
+				tabState="collapseAll"
+				text-align="left"
+				flex-direction="row"
+				display="flex"
+				font="normal 700 20px/1.5 --fontFamily-sans"
+				align-content="center"
+				justify-content="center"
+				color="#000000"
+			>
+				<Override slot="Sub Head Text-videointi">
+					Videointi
+				</Override>
+				<Override slot="Item" border-color="#000000" />
+				<Override
+					slot="Link"
+					text-decoration-line="initial"
+					active-border-color="#000000"
+					border-color="#000000"
+					display="block"
+				/>
+				<Override slot="Item-404" display="none" />
+				<Override slot="Item :active" color="#000000" />
+				<Override slot="Link-videointi" display="none" />
+				<Override slot="Sub Head Text-valokuvaus">
+					Valokuvaus
+				</Override>
+				<Override slot="Link-valokuvaus" display="none" />
+				<Override slot="Sub Head Text-yhden-henkilon-kuvaus">
+					Yhden henkilön kuvaus
+				</Override>
+				<Override slot="Sub Head Text-monen-henkilon-kuvaus">
+					Monen henkilön kuvaus
+				</Override>
+				<Override slot="Link-monen-henkilon-kuvaus" display="none" />
+				<Override slot="Sub Head Text-promokuvaus">
+					Promokuvaus
+				</Override>
+				<Override slot="Link-promokuvaus" display="none" />
+				<Override slot="Sub Head Icon" category="io" icon={IoIosArrowDown} />
+			</Components.QuarklycommunityKitMenuWithGroups>
 		</Section>
-		<Components.QuarklycommunityKitMenuWithGroups
-			tabState="collapseAll"
-			text-align="left"
-			flex-direction="row"
-			display="flex"
-			font="normal 700 20px/1.5 --fontFamily-sans"
-			align-content="center"
-			justify-content="center"
-			color="#000000"
-		>
-			<Override slot="Sub Head Text-videointi">
-				Videointi
-			</Override>
-			<Override slot="Item" border-color="#000000" />
-			<Override
-				slot="Link"
-				text-decoration-line="initial"
-				active-border-color="#000000"
-				border-color="#000000"
-				display="block"
-			/>
-			<Override slot="Item-404" display="none" />
-			<Override slot="Item :active" color="#000000" />
-			<Override slot="Link-videointi" display="none" />
-			<Override slot="Sub Head Text-valokuvaus">
-				Valokuvaus
-			</Override>
-			<Override slot="Link-valokuvaus" display="none" />
-			<Override slot="Sub Head Text-yhden-henkilon-kuvaus">
-				Yhden henkilön kuvaus
-			</Override>
-			<Override slot="Sub Head Text-monen-henkilon-kuvaus">
-				Monen henkilön kuvaus
-			</Override>
-			<Override slot="Link-monen-henkilon-kuvaus" display="none" />
-			<Override slot="Sub Head Text-promokuvaus">
-				Promokuvaus
-			</Override>
-			<Override slot="Link-promokuvaus" display="none" />
-			<Override slot="Sub Head Icon" category="io" icon={IoIosArrowDown} />
-		</Components.QuarklycommunityKitMenuWithGroups>
 		<Section
 			padding="140px 0"
 			sm-padding="40px 0"
