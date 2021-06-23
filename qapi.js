@@ -88,7 +88,8 @@ export default {
 			"pageUrl": "tuotekuvaus",
 			"name": "Tuotekuvaus",
 			"seo": {
-				"title": "Elikuz Media - Tuotekuvaus"
+				"title": "Elikuz Media - Tuotekuvaus",
+				"og:image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
 			}
 		},
 		"60d2627bd3d3a2001e2ad17e": {
@@ -106,7 +107,8 @@ export default {
 			"pageUrl": "muotokuvaus-studiossa",
 			"name": "Muotokuvaus studiossa",
 			"seo": {
-				"title": "Elikuz Media - Muotokuvaus studiossa"
+				"title": "Elikuz Media - Muotokuvaus studiossa",
+				"og:image": "https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/2%20%282%29.jpg?v=2021-06-23T18:01:30.436Z"
 			}
 		},
 		"60d2628e42a3a0001ee77f24": {
@@ -119,7 +121,8 @@ export default {
 			"pageUrl": "henkilokuvaus-miljoossa",
 			"name": "Henkilökuvaus miljöössä",
 			"seo": {
-				"title": "Elikuz Media - Henkilökuvaus miljöössä"
+				"title": "Elikuz Media - Henkilökuvaus miljöössä",
+				"og:image": "https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/8.jpg?v=2021-06-23T18:04:28.999Z"
 			}
 		},
 		"60d26299d3d3a2001e2ad182": {
@@ -188,7 +191,7 @@ export default {
 			"og:title": "Elikuz Media",
 			"description": "Elikuz Media",
 			"og:description": "Elikuz Media",
-			"og:image": "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000",
+			"og:image": "https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/1%20%282%29.jpg?v=2021-06-23T18:01:09.874Z",
 			"favicon_32px": "https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z",
 			"favicon_apple_152px": "https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z",
 			"favicon_win10_270px": "https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"
