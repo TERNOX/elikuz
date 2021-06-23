@@ -10,7 +10,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"valokuvaus/monen-henkilon-kuvaus/pari-ja-perhekuvaus-studiossa"} />
 		<Helmet>
 			<title>
-				Elikuz Media
+				Elikuz Media - Pari- ja perhekuvaus studiossa
 			</title>
 			<meta name={"description"} content={"Elikuz Media"} />
 			<meta property={"og:title"} content={"Elikuz Media"} />

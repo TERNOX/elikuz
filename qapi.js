@@ -138,36 +138,51 @@ export default {
 		"60d262a242a3a0001ee77f28": {
 			"id": "60d262a242a3a0001ee77f28",
 			"pageUrl": "pari-ja-perhekuvaus-studiossa",
-			"name": "Pari- ja perhekuvaus studiossa"
+			"name": "Pari- ja perhekuvaus studiossa",
+			"seo": {
+				"title": "Elikuz Media - Pari- ja perhekuvaus studiossa"
+			}
 		},
 		"60d262b842a3a0001ee77f2c": {
 			"id": "60d262b842a3a0001ee77f2c",
 			"pageUrl": "lavastettu-pari-ja-perhekuvaus-studiossa",
-			"name": "Lavastettu pari- ja perhekuvaus studiossa"
+			"name": "Lavastettu pari- ja perhekuvaus studiossa",
+			"seo": {
+				"title": "Elikuz Media - Lavastettu pari- ja perhekuvaus studiossa"
+			}
 		},
 		"60d262c1625b88001ed84807": {
 			"id": "60d262c1625b88001ed84807",
 			"pageUrl": "pari-ja-perhekuvaus-miljoossa",
-			"name": "Pari- ja perhekuvaus miljöössä"
+			"name": "Pari- ja perhekuvaus miljöössä",
+			"seo": {
+				"title": "Elikuz Media - Pari- ja perhekuvaus miljöössä"
+			}
 		},
 		"60d262ce42a3a0001ee77f2e": {
 			"id": "60d262ce42a3a0001ee77f2e",
 			"pageUrl": "promokuvaus",
 			"name": "Promokuvaus",
 			"children": [
-				"60d262d7950f4f001fe3845e",
-				"60d262de1dbc47001fe4e7a9"
+				"60d262de1dbc47001fe4e7a9",
+				"60d262d7950f4f001fe3845e"
 			]
 		},
 		"60d262d7950f4f001fe3845e": {
 			"id": "60d262d7950f4f001fe3845e",
 			"pageUrl": "promokuvaus-studiossa",
-			"name": "Promokuvaus studiossa"
+			"name": "Promokuvaus miljöössä",
+			"seo": {
+				"title": "Elikuz Media - Promokuvaus studiossa"
+			}
 		},
 		"60d262de1dbc47001fe4e7a9": {
 			"id": "60d262de1dbc47001fe4e7a9",
 			"pageUrl": "promokuvaus-miljoossa",
-			"name": "Promokuvaus miljöössä"
+			"name": "Promokuvaus studiossa",
+			"seo": {
+				"title": "Elikuz Media - Promokuvaus studiossa"
+			}
 		},
 		"60d262e41dbc47001fe4e7ab": {
 			"id": "60d262e41dbc47001fe4e7ab",

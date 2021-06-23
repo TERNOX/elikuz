@@ -28,7 +28,8 @@ export default (() => {
 				Elikuz Media
 			</Override>
 		</Components.Top>
-		<Section padding="140px 0" sm-padding="40px 0" background="url(https://images.unsplash.com/photo-1515600051222-a3c338ff16f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) center/cover">
+		<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/122.jpg?v=2021-06-23T20:14:20.424Z) center/cover">
+			<Override slot="SectionContent" align-items="flex-end" />
 			<Box max-width="350px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
 				<Text
 					as="h4"

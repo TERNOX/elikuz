@@ -76,6 +76,7 @@ export default (() => {
 			aspectRatioProp="auto"
 			hideLoaderPreviewImage={false}
 			columnsCountProp="5"
+			borderWidthProp="0"
 		>
 			<Override
 				slot="Item 0"

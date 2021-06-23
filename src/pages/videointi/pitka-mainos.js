@@ -24,7 +24,7 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
 		</Helmet>
 		<Components.Top />
-		<Section padding="140px 0" sm-padding="40px 0" background="url(https://images.unsplash.com/photo-1624377149599-65e4b8cd6fa0?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) center/cover">
+		<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/photo_2021-06-23_22-32-52.jpg?v=2021-06-23T19:35:51.657Z) center/cover">
 			<Box max-width="340px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
 				<Text as="h2" font="--headline2" margin="0 0 12px 0">
 					Pitkä mainos 200-300 €

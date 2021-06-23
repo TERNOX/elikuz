@@ -57,10 +57,10 @@ const pageStyles = {
     "valokuvaus/promokuvaus": {
         "color": ""
     },
-    "valokuvaus/promokuvaus/promokuvaus-studiossa": {
+    "valokuvaus/promokuvaus/promokuvaus-miljoossa": {
         "color": ""
     },
-    "valokuvaus/promokuvaus/promokuvaus-miljoossa": {
+    "valokuvaus/promokuvaus/promokuvaus-studiossa": {
         "color": ""
     },
     "valokuvaus/tapahtuman-valokuvaus": {
