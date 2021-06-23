@@ -64,7 +64,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Components.Footer2 />
+		<Components.Footerendd />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

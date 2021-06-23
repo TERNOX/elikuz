@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Section } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -10,7 +10,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"videointi/musiikkivideon-tekeminen"} />
 		<Helmet>
 			<title>
-				Elikuz Media
+				Elikuz Media - Musiikkivideon tekemimen
 			</title>
 			<meta name={"description"} content={"Elikuz Media"} />
 			<meta property={"og:title"} content={"Elikuz Media"} />
@@ -28,27 +28,31 @@ export default (() => {
 				Elikuz Media
 			</Override>
 		</Components.Top>
-		<Section
-			text-align="center"
-			background-color="--primary"
-			color="--light"
-			padding="100px 0"
-			sm-padding="40px 0"
-		>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				Musiikkivideon tekemimen
-			</Text>
-			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				Hinta sisältää videon, käsikirjottamista kuvausta ja editointia.
-				<br />
-				<br />
-				Kerro omaa ideaa videosta ja sovimme hintaan riippuen videon monimutkaisuudesta.
-				<br />
-				<br />
-				Varaa aika videoinniin puh. 046 555 3684 tai contact@elikuz.com avulla
-			</Text>
+		<Section padding="140px 0" sm-padding="40px 0" background="url(https://images.unsplash.com/photo-1515600051222-a3c338ff16f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) center/cover">
+			<Box max-width="350px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
+				<Text
+					as="h4"
+					font="--base"
+					color="--grey"
+					letter-spacing="1px"
+					text-transform="uppercase"
+					margin="6px 0"
+				/>
+				<Text as="h2" font="--headline2" margin="0 0 12px 0">
+					Musiikkivideon tekemimen{"\n\n"}
+				</Text>
+				<Text font="--base">
+					Hinta sisältää videon, käsikirjottamista kuvausta ja editointia.
+					<br />
+					<br />
+					Kerro omaa ideaa videosta ja sovimme hintaan riippuen videon monimutkaisuudesta.
+					<br />
+					<br />
+					Varaa aika videoinniin puh. 046 555 3684 tai contact@elikuz.com avulla{"\n\n"}
+				</Text>
+			</Box>
 		</Section>
-		<Components.Footer2 />
+		<Components.Footerendd />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

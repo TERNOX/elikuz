@@ -1,15 +1,16 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link } from "@quarkly/widgets";
+import { Theme, Link, Text, Span, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"videointi/pitka-mainos"} />
 		<Helmet>
 			<title>
-				Elikuz Media
+				Elikuz Media - Pitkä mainos
 			</title>
 			<meta name={"description"} content={"Elikuz Media"} />
 			<meta property={"og:title"} content={"Elikuz Media"} />
@@ -22,6 +23,48 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
 		</Helmet>
+		<Components.Top />
+		<Section padding="140px 0" sm-padding="40px 0" background="url(https://images.unsplash.com/photo-1624377149599-65e4b8cd6fa0?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) center/cover">
+			<Box max-width="340px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
+				<Text as="h2" font="--headline2" margin="0 0 12px 0">
+					Pitkä mainos 200-300 €
+				</Text>
+				<Text font="--base">
+					• Videon pituus 3-6 min.
+					<br />
+					• Videon editointi kuuluu hintaan
+					<br />
+					<br />
+					Kerro omaa ideaa videosta ja sovimme hintaan riippuen videon monimutkaisuudesta.
+					<br />
+					<br />
+					Varaa aika videoinniin puh.{" "}
+					<Span
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						046 555 3684
+					</Span>
+					{" "}tai{" "}
+					<Span
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						contact@elikuz.com
+					</Span>
+					{" "}avulla
+				</Text>
+			</Box>
+		</Section>
+		<Components.Footerendd />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

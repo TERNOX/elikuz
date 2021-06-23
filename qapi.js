@@ -41,17 +41,26 @@ export default {
 		"60d2490fd3d3a2001e2ad154": {
 			"id": "60d2490fd3d3a2001e2ad154",
 			"pageUrl": "musiikkivideon-tekeminen",
-			"name": "Musiikkivideon tekeminen"
+			"name": "Musiikkivideon tekeminen",
+			"seo": {
+				"title": "Elikuz Media - Musiikkivideon tekemimen"
+			}
 		},
 		"60d262541dbc47001fe4e79d": {
 			"id": "60d262541dbc47001fe4e79d",
 			"pageUrl": "lyhyt-mainos",
-			"name": "Lyhyt mainos"
+			"name": "Lyhyt mainos",
+			"seo": {
+				"title": "Elikuz Media - Lyhyt mainos"
+			}
 		},
 		"60d2625c625b88001ed847ff": {
 			"id": "60d2625c625b88001ed847ff",
 			"pageUrl": "pitka-mainos",
-			"name": "Pitkä mainos"
+			"name": "Pitkä mainos",
+			"seo": {
+				"title": "Elikuz Media - Pitkä mainos"
+			}
 		},
 		"60d262631dbc47001fe4e79f": {
 			"id": "60d262631dbc47001fe4e79f",

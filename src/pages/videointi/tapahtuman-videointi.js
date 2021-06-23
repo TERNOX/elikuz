@@ -1,9 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml } from "@quarkly/components";
+import { RawHtml, Override } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"videointi/tapahtuman-videointi"} />
@@ -22,6 +23,31 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
 		</Helmet>
+		<Components.Top />
+		<Section padding="140px 0" sm-padding="40px 0" background="url(https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) center/cover">
+			<Override slot="SectionContent" align-items="flex-end" />
+			<Box max-width="340px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
+				<Text as="h2" font="--headline2" margin="0 0 12px 0">
+					Tapahtuman videointi
+				</Text>
+				<Text font="--base">
+					Keikat, häät, hautajaiset, syntymäpäivät, ristiäiset, jne.
+					<br />
+					• Sovitaan hintaa videon pituuden ja monimutkaisuuden perustella
+					<br />
+					• Editointi kuuluu hintaan{" "}
+					<br />
+					<br />
+					Videokuvaukset vain Oulunseudulla
+					<br />
+					<br />
+					Varaa aika videoinniin puh. 046 555 3684 tai contact@elikuz.com avulla
+					<br />
+					<br />
+				</Text>
+			</Box>
+		</Section>
+		<Components.Footerendd />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
