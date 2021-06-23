@@ -46,6 +46,7 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
+		<Components.Ebafoto />
 		<Components.Footerendd />
 		<Link
 			font={"--capture"}

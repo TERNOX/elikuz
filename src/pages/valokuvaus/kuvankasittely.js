@@ -24,8 +24,8 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
 		</Helmet>
 		<Components.Top />
-		<Section padding="140px 0" sm-padding="40px 0" background="url(https://images.unsplash.com/photo-1541582596622-c0a08ae45b9f?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) center/cover">
-			<Override slot="SectionContent" align-items="flex-end" />
+		<Section padding="140px 0" sm-padding="40px 0" background="url(https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) center/cover">
+			<Override slot="SectionContent" align-items="flex-start" />
 			<Box max-width="340px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
 				<Text
 					as="h4"
@@ -58,74 +58,6 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Components.QuarklycommunityKitGallery
-			galleryItemNumbProp="9"
-			columnsCountProp="4"
-			borderWidthProp="0"
-			loaderFormatProp="all"
-			aspectRatioProp="auto"
-		>
-			<Override
-				slot="Item 0"
-				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/1%20%284%29.jpg?v=2021-06-23T18:01:19.226Z"
-				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/1%20%284%29.jpg?v=2021-06-23T18:01:19.226Z"
-				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/1%20%284%29.jpg?v=2021-06-23T18:01:19.226Z"
-				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/1%20%284%29.jpg?v=2021-06-23T18:01:19.226Z"
-				columsNumb="2"
-			/>
-			<Override slot="Item" hover-transition="all 0.3s ease-in 0s" hover-filter="brightness(130%)" />
-			<Override
-				slot="Item 1"
-				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/2%20%284%29.jpg?v=2021-06-23T18:01:30.440Z"
-				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/2%20%284%29.jpg?v=2021-06-23T18:01:30.440Z"
-				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/2%20%284%29.jpg?v=2021-06-23T18:01:30.440Z"
-				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/2%20%284%29.jpg?v=2021-06-23T18:01:30.440Z"
-				columsNumb="2"
-			/>
-			<Override
-				slot="Item 2"
-				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ccc3.jpg?v=2021-06-23T20:04:16.536Z"
-				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ccc3.jpg?v=2021-06-23T20:04:16.536Z"
-				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ccc3.jpg?v=2021-06-23T20:04:16.536Z"
-				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ccc3.jpg?v=2021-06-23T20:04:16.536Z"
-				columsNumb="2"
-			/>
-			<Override
-				slot="Item 3"
-				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/4%20%283%29.jpg?v=2021-06-23T18:03:45.139Z"
-				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/4%20%283%29.jpg?v=2021-06-23T18:03:45.139Z"
-				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/4%20%283%29.jpg?v=2021-06-23T18:03:45.139Z"
-				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/4%20%283%29.jpg?v=2021-06-23T18:03:45.139Z"
-				columsNumb="2"
-			/>
-			<Override slot="Item 4" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/5%20%283%29.jpg?v=2021-06-23T18:03:56.413Z" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/5%20%283%29.jpg?v=2021-06-23T18:03:56.413Z" fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/5%20%283%29.jpg?v=2021-06-23T18:03:56.413Z" />
-			<Override
-				slot="Item 5"
-				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ccc6.jpg?v=2021-06-23T20:04:16.538Z"
-				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ccc6.jpg?v=2021-06-23T20:04:16.538Z"
-				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ccc6.jpg?v=2021-06-23T20:04:16.538Z"
-				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ccc6.jpg?v=2021-06-23T20:04:16.538Z"
-				columsNumb="2"
-			/>
-			<Override
-				slot="Item 6"
-				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/7%20%282%29.jpg?v=2021-06-23T18:04:08.890Z"
-				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/7%20%282%29.jpg?v=2021-06-23T18:04:08.890Z"
-				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/7%20%282%29.jpg?v=2021-06-23T18:04:08.890Z"
-				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/7%20%282%29.jpg?v=2021-06-23T18:04:08.890Z"
-				columsNumb="2"
-				rowsNumb="1"
-			/>
-			<Override slot="Item 7" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/8%20%282%29.jpg?v=2021-06-23T18:04:17.342Z" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/8%20%282%29.jpg?v=2021-06-23T18:04:17.342Z" previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/8%20%282%29.jpg?v=2021-06-23T18:04:17.342Z" />
-			<Override
-				slot="Item 8"
-				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/9%20%282%29.jpg?v=2021-06-23T18:04:28.474Z"
-				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/9%20%282%29.jpg?v=2021-06-23T18:04:28.474Z"
-				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/9%20%282%29.jpg?v=2021-06-23T18:04:28.474Z"
-				columsNumb="2"
-				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/9%20%282%29.jpg?v=2021-06-23T18:04:28.474Z"
-			/>
-		</Components.QuarklycommunityKitGallery>
 		<Components.Footerendd />
 		<Link
 			font={"--capture"}
