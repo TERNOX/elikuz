@@ -32,7 +32,7 @@ export default {
 		"lightD2": "#E4E8EC",
 		"green": "#00875A",
 		"primary": "#0077CC",
-		"secondary": "#FFC400",
+		"secondary": "#fdfdfd",
 		"orange": "#FF7C22",
 		"red": "#DE350B",
 		"purple": "#FD6DF9",
@@ -53,7 +53,7 @@ export default {
 		"headline1": "normal 900 72px/1.2 --fontFamily-sans",
 		"headline2": "normal 900 42px/1.2 --fontFamily-sans",
 		"headline3": "normal 500 28px/1.2 --fontFamily-sans",
-		"base": "normal 300 16px/1.5 --fontFamily-sans",
+		"base": "normal 300 18px/1.6 --fontFamily-sans",
 		"lead": "normal 300 20px/1.5 --fontFamily-sans"
 	},
 	"boxShadow": {
@@ -151,5 +151,5 @@ export default {
 			}
 		}
 	},
-	"version": 1
+	"version": 4
 }

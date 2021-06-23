@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link } from "@quarkly/widgets";
+import { Theme, Link, Text, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml } from "@quarkly/components";
+import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -23,7 +23,32 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
 		</Helmet>
-		<Components.Menuu />
+		<Components.Top>
+			<Override slot="text">
+				Elikuz Media
+			</Override>
+		</Components.Top>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="100px 0"
+			sm-padding="40px 0"
+		>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				Musiikkivideon tekemimen
+			</Text>
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				Hinta sisältää videon, käsikirjottamista kuvausta ja editointia.
+				<br />
+				<br />
+				Kerro omaa ideaa videosta ja sovimme hintaan riippuen videon monimutkaisuudesta.
+				<br />
+				<br />
+				Varaa aika videoinniin puh. 046 555 3684 tai contact@elikuz.com avulla
+			</Text>
+		</Section>
+		<Components.Footer2 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
