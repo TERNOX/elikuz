@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link } from "@quarkly/widgets";
+import { Theme, Link, Strong, Text, Span, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -10,11 +10,11 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"valokuvaus/yhden-henkilon-kuvaus/lavastettu-kuvaus-studiossa"} />
 		<Helmet>
 			<title>
-				Elikuz Media
+				Elikuz Media - Promokuvaus miljöössä
 			</title>
-			<meta name={"description"} content={"Elikuz Media"} />
+			<meta name={"description"} content={"• 1 – 2,5 t kuvausaika\n• Hinta sisältää runsaasti koevedoksia\n• Ikä ei vaikuttaa hintaan\n• Kuvankäsittely kuuluu hintaan\n\nValokuvaukset vain Oulunseudulla"} />
 			<meta property={"og:title"} content={"Elikuz Media"} />
-			<meta property={"og:description"} content={"Elikuz Media"} />
+			<meta property={"og:description"} content={"• 1 – 2,5 t kuvausaika\n• Hinta sisältää runsaasti koevedoksia\n• Ikä ei vaikuttaa hintaan\n• Kuvankäsittely kuuluu hintaan\n\nValokuvaukset vain Oulunseudulla"} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/1%20%282%29.jpg?v=2021-06-23T18:01:09.874Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
@@ -24,11 +24,77 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
 		</Helmet>
 		<Components.Top />
-		<Components.Infa>
-			<Override slot="text">
-				45 €{"\n\n"}
-			</Override>
-		</Components.Infa>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="50px 0 50px 0"
+			sm-padding="40px 0"
+			background="--color-greyD1 url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/back3.jpg?v=2021-06-26T18:50:04.403Z) 0% 50%/cover"
+		>
+			<Override slot="SectionContent" align-items="center" />
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				<Strong>
+					45 €{"\n\n"}
+				</Strong>
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				Lavastettu kuvaus studiossa
+			</Text>
+			<Text
+				as="p"
+				font="--lead"
+				margin="40px 0 20px 0"
+				text-align="left"
+				max-width="600px"
+			>
+				<Strong>
+					• 1 – 1,5 t kuvausaika
+					<br />
+					• Hinta sisältää runsaasti koevedoksia
+					<br />
+					• Ikä ei vaikuttaa hintaan
+					<br />
+					• Kuvankäsittely kuuluu hintaan
+					<br />
+					<br />
+					Jos sinulla ei ole tietyä tyyliä, keksin jotain upea itse mitä sopii juuri sinulle parhaiten
+				</Strong>
+			</Text>
+			<Text
+				as="p"
+				font="--base"
+				margin="40px 0 20px 0"
+				text-align="left"
+				max-width="700px"
+			>
+				<Span
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					<Span
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						Varaa aika kuvaukseen puh. 046 555 3684 tai contact@elikuz.com avulla
+					</Span>
+				</Span>
+			</Text>
+		</Section>
 		<Components.QuarklycommunityKitGallery
 			galleryItemNumbProp="2"
 			borderWidthProp="0"

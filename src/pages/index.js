@@ -10,9 +10,9 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				Elikuz Media
+				Elikuz Media - Promokuvaus miljöössä
 			</title>
-			<meta name={"description"} content={"Elikuz Media"} />
+			<meta name={"description"} content={"• 1 – 2,5 t kuvausaika\n• Hinta sisältää runsaasti koevedoksia\n• Ikä ei vaikuttaa hintaan\n• Kuvankäsittely kuuluu hintaan\n\nValokuvaukset vain Oulunseudulla"} />
 			<meta property={"og:title"} content={"Elikuz Media"} />
 			<meta property={"og:description"} content={"Elisey Kuziakin"} />
 			<meta property={"og:image"} content={"https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"} />

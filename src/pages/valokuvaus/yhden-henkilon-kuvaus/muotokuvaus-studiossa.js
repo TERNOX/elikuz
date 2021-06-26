@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Section } from "@quarkly/widgets";
+import { Theme, Link, Strong, Text, Span, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -12,9 +12,9 @@ export default (() => {
 			<title>
 				Elikuz Media - Muotokuvaus studiossa
 			</title>
-			<meta name={"description"} content={"Elikuz Media"} />
+			<meta name={"description"} content={"• 1 – 2,5 t kuvausaika\n• Hinta sisältää runsaasti koevedoksia\n• Ikä ei vaikuttaa hintaan\n• Kuvankäsittely kuuluu hintaan\n\nValokuvaukset vain Oulunseudulla"} />
 			<meta property={"og:title"} content={"Elikuz Media"} />
-			<meta property={"og:description"} content={"Elikuz Media"} />
+			<meta property={"og:description"} content={"• 1 – 2,5 t kuvausaika\n• Hinta sisältää runsaasti koevedoksia\n• Ikä ei vaikuttaa hintaan\n• Kuvankäsittely kuuluu hintaan\n\nValokuvaukset vain Oulunseudulla"} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/2%20%282%29.jpg?v=2021-06-23T18:01:30.436Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
@@ -30,6 +30,7 @@ export default (() => {
 			color="--light"
 			padding="50px 0 50px 0"
 			sm-padding="40px 0"
+			background="rgb(0, 119, 204) url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/back2.jpg?v=2021-06-26T14:53:19.871Z) 0% 50% /cover repeat scroll padding-box"
 		>
 			<Override slot="SectionContent" align-items="center" />
 			<Text
@@ -39,7 +40,9 @@ export default (() => {
 				text-transform="uppercase"
 				letter-spacing="5px"
 			>
-				39 €{" "}
+				<Strong>
+					39 €{" "}
+				</Strong>
 			</Text>
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
 				Muotokuvaus studiossa
@@ -52,16 +55,42 @@ export default (() => {
 				max-width="600px"
 				display="flex"
 			>
-				• 0,5 – 1 t kuvausaika
-				<br />
-				• Hinta sisältää runsaasti koevedoksia
-				<br />
-				• Ikä ei vaikuttaa hintaan
-				<br />
-				• Kuvankäsittely kuuluu hintaan
-				<br />
-				<br />
-				Varaa aika kuvaukseen puh. 046 555 3684 tai contact@elikuz.com avulla
+				<Strong>
+					• 0,5 – 1 t kuvausaika
+					<br />
+					• Hinta sisältää runsaasti koevedoksia
+					<br />
+					• Ikä ei vaikuttaa hintaan
+					<br />
+					• Kuvankäsittely kuuluu hintaan
+				</Strong>
+			</Text>
+			<Text
+				as="p"
+				font="--base"
+				margin="40px 0 20px 0"
+				text-align="left"
+				max-width="700px"
+			>
+				<Span
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					<Span
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						Varaa aika kuvaukseen puh. 046 555 3684 tai contact@elikuz.com avulla
+					</Span>
+				</Span>
 			</Text>
 		</Section>
 		<Components.QuarklycommunityKitGallery

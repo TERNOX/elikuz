@@ -10,11 +10,11 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"valokuvaus/tapahtuman-valokuvaus"} />
 		<Helmet>
 			<title>
-				Elikuz Media
+				Elikuz Media - Promokuvaus miljöössä
 			</title>
-			<meta name={"description"} content={"Elikuz Media"} />
+			<meta name={"description"} content={"• 1 – 2,5 t kuvausaika\n• Hinta sisältää runsaasti koevedoksia\n• Ikä ei vaikuttaa hintaan\n• Kuvankäsittely kuuluu hintaan\n\nValokuvaukset vain Oulunseudulla"} />
 			<meta property={"og:title"} content={"Elikuz Media"} />
-			<meta property={"og:description"} content={"Elikuz Media"} />
+			<meta property={"og:description"} content={"• 1 – 2,5 t kuvausaika\n• Hinta sisältää runsaasti koevedoksia\n• Ikä ei vaikuttaa hintaan\n• Kuvankäsittely kuuluu hintaan\n\nValokuvaukset vain Oulunseudulla"} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/1%20%282%29.jpg?v=2021-06-23T18:01:09.874Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
@@ -24,7 +24,7 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
 		</Helmet>
 		<Components.Top />
-		<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/62.jpg?v=2021-06-23T20:43:41.720Z) center/cover">
+		<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/back5.jpg?v=2021-06-26T19:15:18.467Z) center/cover">
 			<Override slot="SectionContent" sm-align-items="center" />
 			<Box max-width="340px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
 				<Text as="h2" font="--headline2" margin="0 0 12px 0">

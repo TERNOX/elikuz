@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Strong, Text, Span, Section } from "@quarkly/widgets";
+import { Theme, Link } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -12,9 +12,9 @@ export default (() => {
 			<title>
 				Elikuz Media - Henkilökuvaus miljöössä
 			</title>
-			<meta name={"description"} content={"Elikuz Media"} />
+			<meta name={"description"} content={"• 1 – 2,5 t kuvausaika\n• Hinta sisältää runsaasti koevedoksia\n• Ikä ei vaikuttaa hintaan\n• Kuvankäsittely kuuluu hintaan\n\nValokuvaukset vain Oulunseudulla"} />
 			<meta property={"og:title"} content={"Elikuz Media"} />
-			<meta property={"og:description"} content={"Elikuz Media"} />
+			<meta property={"og:description"} content={"• 1 – 2,5 t kuvausaika\n• Hinta sisältää runsaasti koevedoksia\n• Ikä ei vaikuttaa hintaan\n• Kuvankäsittely kuuluu hintaan\n\nValokuvaukset vain Oulunseudulla"} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/8.jpg?v=2021-06-23T18:04:28.999Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
@@ -24,108 +24,19 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
 		</Helmet>
 		<Components.Top />
-		<Section
-			text-align="center"
-			background-color="--primary"
-			color="--light"
-			padding="50px 0 50px 0"
-			sm-padding="40px 0"
-			background="--color-greyD2 url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/back1%20%283%29.jpg?v=2021-06-24T09:41:28.212Z) 0% 0%/cover"
-		>
-			<Override slot="SectionContent" align-items="center" />
-			<Text
-				as="h5"
-				font="--headline3"
-				margin="10px 0 0 0"
-				text-transform="uppercase"
-				letter-spacing="5px"
-			>
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-				>
-					55 €{"\n\n"}
-				</Strong>
-			</Text>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				Henkilökuvaus miljöössä
-			</Text>
-			<Text as="p" font="--lead" margin="40px 0 20px 0" text-align="left">
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-				>
-					• 1 – 2,5 t kuvausaika
-					<br />
-					• Hinta sisältää runsaasti koevedoksia
-					<br />
-					• Ikä ei vaikuttaa hintaan
-					<br />
-					• Kuvankäsittely kuuluu hintaan{" "}
-				</Strong>
-				<br />
-				<br />
-				<Span
-					text-align="center"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					display="inline-block"
-				>
-					Valokuvaukset vain Oulunseudulla
-				</Span>
-			</Text>
-			<Text
-				as="p"
-				font="--base"
-				margin="40px 0 20px 0"
-				text-align="left"
-				max-width="700px"
-			>
-				<Span
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-				>
-					<Span
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-					>
-						Varaa aika kuvaukseen puh. 046 555 3684 tai contact@elikuz.com avulla
-					</Span>
-				</Span>
-			</Text>
-		</Section>
+		<Components.Primer />
 		<Components.QuarklycommunityKitGallery
-			loaderFormatProp="all"
+			loaderFormatProp="scroll"
 			autoFillInProp
 			hideLoaderFullImage={false}
 			offScrollProp={false}
 			galleryItemNumbProp="10"
 			aspectRatioProp="auto"
-			hideLoaderPreviewImage
+			hideLoaderPreviewImage={false}
 			columnsCountProp="8"
 			borderWidthProp="0"
-			transform="scale(1)"
-			transition="all 0.5s ease 0s"
+			transition="all --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
+			min-height="1226px"
 		>
 			<Override
 				slot="Item 0"
@@ -138,18 +49,22 @@ export default (() => {
 			/>
 			<Override
 				slot="Item"
-				hover-transition="all 0.3s ease-in 0s"
+				hover-transition="all --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
 				hover-filter="brightness(130%)"
 				stretchFull={false}
 				showFullImage={false}
 				previewObjectFit="cover"
-				previewLoading="lazy"
-				fullLoading="lazy"
+				previewLoading="eager"
+				fullLoading="eager"
+				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0.jpg?v=2021-06-25T22:51:12.820Z"
+				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0.jpg?v=2021-06-25T22:51:12.820Z"
+				transition="visibility --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
+				opacity="1"
 			/>
 			<Override
 				slot="Item 1"
 				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/2.jpg?v=2021-06-23T18:01:30.445Z"
-				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/1%20%283%29.jpg?v=2021-06-23T18:01:19.237Z"
+				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/2.jpg?v=2021-06-23T18:01:30.445Z"
 				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/2.jpg?v=2021-06-23T18:01:30.445Z "
 				stretchFull
 				rowsNumb="1"
@@ -180,6 +95,7 @@ export default (() => {
 				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/9.jpg?v=2021-06-23T18:04:28.481Z"
 				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/9.jpg?v=2021-06-23T18:04:28.481Z "
 				columsNumb="2"
+				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0.jpg?v=2021-06-25T22:51:12.820Z"
 			/>
 			<Override
 				slot="Item 6"
@@ -198,6 +114,7 @@ export default (() => {
 				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/8.jpg?v=2021-06-23T18:04:28.999Z"
 				columsNumb="2"
 				rowsNumb="3"
+				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0.jpg?v=2021-06-25T22:51:12.820Z"
 			/>
 			<Override
 				slot="Item 9"
@@ -215,6 +132,9 @@ export default (() => {
 				columsNumb="3"
 				rowsNumb="3"
 			/>
+			<Override slot="Lightbox">
+				<Override slot="Image" object-fit="contain" />
+			</Override>
 		</Components.QuarklycommunityKitGallery>
 		<Components.Footerendd />
 		<Link

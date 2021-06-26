@@ -202,10 +202,10 @@ export default {
 			"color": ""
 		},
 		"seo": {
-			"title": "Elikuz Media",
+			"title": "Elikuz Media - Promokuvaus miljöössä",
 			"og:title": "Elikuz Media",
-			"description": "Elikuz Media",
-			"og:description": "Elikuz Media",
+			"description": "• 1 – 2,5 t kuvausaika\n• Hinta sisältää runsaasti koevedoksia\n• Ikä ei vaikuttaa hintaan\n• Kuvankäsittely kuuluu hintaan\n\nValokuvaukset vain Oulunseudulla",
+			"og:description": "• 1 – 2,5 t kuvausaika\n• Hinta sisältää runsaasti koevedoksia\n• Ikä ei vaikuttaa hintaan\n• Kuvankäsittely kuuluu hintaan\n\nValokuvaukset vain Oulunseudulla",
 			"og:image": "https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/1%20%282%29.jpg?v=2021-06-23T18:01:09.874Z",
 			"favicon_32px": "https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z",
 			"favicon_apple_152px": "https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z",
