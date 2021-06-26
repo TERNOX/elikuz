@@ -1,5 +1,5 @@
 import React from "react";
-import { useOverrides, Override, StackItem, Stack } from "@quarkly/components";
+import { useOverrides, Override } from "@quarkly/components";
 import { Icon, Text, Box, Link, Section } from "@quarkly/widgets";
 import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 const defaultProps = {
@@ -12,40 +12,23 @@ const defaultProps = {
 	"padding": "100px 0 100px 0"
 };
 const overrides = {
-	"stack": {
-		"kind": "Stack",
-		"props": {
-			"justify-content": "flex-start",
-			"flex-wrap": "no-wrap",
-			"width": "100%",
-			"align-content": "flex-start",
-			"align-items": "flex-start"
-		}
-	},
-	"stackItem": {
-		"kind": "StackItem",
-		"props": {
-			"md-width": "100%",
-			"display": "block",
-			"overflow-x": "visible",
-			"overflow-y": "visible",
-			"order": "0",
-			"flex": "1 1 0%",
-			"width": "25%"
-		}
-	},
-	"stackItemOverride": {
-		"kind": "Override",
-		"props": {
-			"slot": "StackItemContent",
-			"flex-direction": "row",
-			"flex-wrap": "no-wrap",
-			"align-items": "flex-start",
-			"align-content": "flex-start",
-			"justify-content": "center"
-		}
-	},
 	"box": {
+		"kind": "Box",
+		"props": {
+			"display": "flex",
+			"margin": "40px 0 20px 0",
+			"justify-content": "space-around",
+			"sm-flex-direction": "column",
+			"width": "100%"
+		}
+	},
+	"box1": {
+		"kind": "Box",
+		"props": {
+			"padding": "10px"
+		}
+	},
+	"box2": {
 		"kind": "Box",
 		"props": {
 			"sm-padding": "64px 0 0 0",
@@ -78,30 +61,13 @@ const overrides = {
 			</>
 		}
 	},
-	"stackItem1": {
-		"kind": "StackItem",
+	"box3": {
+		"kind": "Box",
 		"props": {
-			"md-width": "100%",
-			"display": "block",
-			"overflow-x": "visible",
-			"overflow-y": "visible",
-			"order": "0",
-			"flex": "1 1 0%",
-			"width": "25%"
+			"padding": "10px"
 		}
 	},
-	"stackItemOverride1": {
-		"kind": "Override",
-		"props": {
-			"slot": "StackItemContent",
-			"flex-direction": "row",
-			"flex-wrap": "no-wrap",
-			"align-items": "flex-start",
-			"align-content": "flex-start",
-			"justify-content": "center"
-		}
-	},
-	"box1": {
+	"box4": {
 		"kind": "Box",
 		"props": {
 			"padding": "0 0 0 64px",
@@ -152,30 +118,13 @@ const overrides = {
 			"background": "url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/Fiverr-Emblem.png?v=2021-06-25T21:51:27.114Z) 0% 0% /100% repeat scroll padding-box"
 		}
 	},
-	"stackItem2": {
-		"kind": "StackItem",
+	"box5": {
+		"kind": "Box",
 		"props": {
-			"md-width": "100%",
-			"display": "block",
-			"overflow-x": "visible",
-			"overflow-y": "visible",
-			"order": "0",
-			"flex": "1 1 0%",
-			"width": "25%"
+			"padding": "10px"
 		}
 	},
-	"stackItemOverride2": {
-		"kind": "Override",
-		"props": {
-			"slot": "StackItemContent",
-			"flex-direction": "row",
-			"flex-wrap": "no-wrap",
-			"align-items": "flex-start",
-			"align-content": "flex-start",
-			"justify-content": "center"
-		}
-	},
-	"box2": {
+	"box6": {
 		"kind": "Box",
 		"props": {
 			"padding": "0 0 0 64px",
@@ -215,30 +164,13 @@ const overrides = {
 			"children": "046 555 3684"
 		}
 	},
-	"stackItem3": {
-		"kind": "StackItem",
+	"box7": {
+		"kind": "Box",
 		"props": {
-			"md-width": "100%",
-			"display": "block",
-			"overflow-x": "visible",
-			"overflow-y": "visible",
-			"order": "0",
-			"flex": "1 1 0%",
-			"width": "25%"
+			"padding": "10px"
 		}
 	},
-	"stackItemOverride3": {
-		"kind": "Override",
-		"props": {
-			"slot": "StackItemContent",
-			"flex-direction": "row",
-			"flex-wrap": "no-wrap",
-			"align-items": "flex-start",
-			"align-content": "flex-start",
-			"justify-content": "flex-start"
-		}
-	},
-	"box3": {
+	"box8": {
 		"kind": "Box",
 		"props": {
 			"width": "100%",
@@ -290,35 +222,31 @@ const Footerendd = props => {
 			flex-wrap="no-wrap"
 			align-content="flex-start"
 		/>
-		<Stack {...override("stack")}>
-			<StackItem {...override("stackItem")}>
-				<Override {...override("stackItemOverride")} />
-				<Box {...override("box")}>
+		<Box {...override("box")}>
+			<Box {...override("box1")}>
+				<Box {...override("box2")}>
 					<Icon {...override("icon")} />
 					<Text {...override("text")} />
 				</Box>
-			</StackItem>
-			<StackItem {...override("stackItem1")}>
-				<Override {...override("stackItemOverride1")} />
-				<Box {...override("box1")}>
+			</Box>
+			<Box {...override("box3")}>
+				<Box {...override("box4")}>
 					<Icon {...override("icon1")} />
 					<Text {...override("text1")} />
 					<Link {...override("link")} />
 				</Box>
-			</StackItem>
-			<StackItem {...override("stackItem2")}>
-				<Override {...override("stackItemOverride2")} />
-				<Box {...override("box2")}>
+			</Box>
+			<Box {...override("box5")}>
+				<Box {...override("box6")}>
 					<Icon {...override("icon2")} />
 					<Text {...override("text2")} />
 					<Text {...override("text3")} />
 				</Box>
-			</StackItem>
-			<StackItem {...override("stackItem3")}>
-				<Override {...override("stackItemOverride3")} />
-				<Box {...override("box3")} />
-			</StackItem>
-		</Stack>
+			</Box>
+			<Box {...override("box7")}>
+				<Box {...override("box8")} />
+			</Box>
+		</Box>
 		{children}
 	</Section>;
 };
