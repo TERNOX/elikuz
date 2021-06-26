@@ -87,7 +87,7 @@ const overrides = {
 			"as": "h4",
 			"margin": "6px 0",
 			"font": "--base",
-			"children": "Visit us"
+			"children": "Sijainti"
 		}
 	},
 	"text2": {
@@ -96,7 +96,11 @@ const overrides = {
 			"as": "p",
 			"margin": "6px 0",
 			"font": "--headline3",
-			"children": "Uusikatu 72, A 22\nOulu\nPohjois-Pohjanmaa\nFinland\n90120"
+			"children": <>
+				Uusikatu 72, A 22
+				<br />
+				Oulu 90120
+			</>
 		}
 	},
 	"box2": {
@@ -126,7 +130,7 @@ const overrides = {
 			"as": "h4",
 			"margin": "6px 0",
 			"font": "--base",
-			"children": "Email us"
+			"children": "Email"
 		}
 	},
 	"text4": {
@@ -190,7 +194,7 @@ const overrides = {
 			"as": "h4",
 			"margin": "6px 0",
 			"font": "--base",
-			"children": "Call us"
+			"children": "Puhelin"
 		}
 	},
 	"text6": {

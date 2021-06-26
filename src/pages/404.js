@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Section } from "@quarkly/widgets";
+import { Theme, Link, Text, Strong, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml } from "@quarkly/components";
@@ -31,10 +31,12 @@ export default (() => {
 			height="100%"
 		>
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				404 Page not found
+				404 Sivua ei löydy
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				Oh no!
+				<Strong>
+					:'c
+				</Strong>
 			</Text>
 		</Section>
 		<Link

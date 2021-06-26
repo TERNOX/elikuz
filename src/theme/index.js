@@ -50,11 +50,11 @@ export default {
 		"serifGaramond": "'Palatino Linotype', Palatino, Palladio, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'Apple Garamond', 'ITC Garamond Narrow', 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', Georgia, serif"
 	},
 	"font": {
-		"headline1": "normal 900 72px/1.2 --fontFamily-sans",
+		"headline1": "normal 900 59px/1.2 --fontFamily-sans",
 		"headline2": "normal 900 42px/1.2 --fontFamily-sans",
 		"headline3": "normal 500 28px/1.2 --fontFamily-sans",
-		"base": "normal 300 18px/1.6 --fontFamily-sans",
-		"lead": "normal 300 20px/1.5 --fontFamily-sans"
+		"base": "normal 300 22px/1.6 --fontFamily-sans",
+		"lead": "normal 300 24px/1.5 --fontFamily-sans"
 	},
 	"boxShadow": {
 		"m": "0 4px 5px -1px rgba(0, 0, 0, 0.1)",
@@ -151,5 +151,5 @@ export default {
 			}
 		}
 	},
-	"version": 4
+	"version": 7
 }
