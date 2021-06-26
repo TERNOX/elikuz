@@ -47,7 +47,7 @@ const overrides = {
 			"display": "flex",
 			"margin": "0px 0px 0px 15%",
 			"children": <Link
-				href="#"
+				href="https://elikuz.com/"
 				color="#ffffff"
 				font="--headline2"
 				text-decoration-line="initial"

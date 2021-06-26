@@ -8,7 +8,8 @@ const defaultProps = {
 	"sm-padding": "40px 0",
 	"position": "relative",
 	"background": "linear-gradient(0deg,rgba(25, 30, 34, 0.8) 0%,rgba(25, 30, 34, 0.8) 100%),--color-darkL2 url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0.jpg?v=2021-06-25T22:51:12.820Z) 0% 65%/cover",
-	"flex-direction": "row"
+	"flex-direction": "row",
+	"inner-max-width": "1437px"
 };
 const overrides = {
 	"stack": {
@@ -95,7 +96,6 @@ const overrides = {
 			"flex-direction": "row",
 			"flex-wrap": "no-wrap",
 			"align-items": "flex-start",
-			"width": "25%",
 			"align-content": "flex-start",
 			"justify-content": "center"
 		}
