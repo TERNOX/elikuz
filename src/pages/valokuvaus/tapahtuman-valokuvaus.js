@@ -34,8 +34,7 @@ export default (() => {
 					Keikat, häät, hautajaiset, syntymäpäivät, ristiäiset, jne.
 					<br />
 					<br />
-					• 150 € ensimmäinen tunti 
-      100 € seuraavilta alkavilta tunneilta
+					• 90 € ensimmäinen tunti 70 € seuraavilta alkavilta tunneilta
 					<br />
 					• Kuvankäsittely kuuluu hintaan{" "}
 					<br />

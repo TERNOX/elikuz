@@ -1,41 +1,56 @@
 import React from "react";
-import { useOverrides, Override, StackItem, Stack, Formspree } from "@quarkly/components";
-import { Icon, Text, Box, Link, Input, Button, Section } from "@quarkly/widgets";
-import { MdAccessibility, MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
+import { useOverrides, Override, StackItem, Stack } from "@quarkly/components";
+import { Icon, Text, Box, Link, Section } from "@quarkly/widgets";
+import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 const defaultProps = {
 	"color": "--light",
 	"padding": "100px 0",
 	"sm-padding": "40px 0",
 	"position": "relative",
-	"background": "linear-gradient(0deg,rgba(25, 30, 34, 0.8) 0%,rgba(25, 30, 34, 0.8) 100%),--color-darkL2 url(https://images.unsplash.com/photo-1547619292-240402b5ae5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)"
+	"background": "linear-gradient(0deg,rgba(25, 30, 34, 0.8) 0%,rgba(25, 30, 34, 0.8) 100%),--color-darkL2 url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0.jpg?v=2021-06-25T22:51:12.820Z) 0% 65%/cover",
+	"flex-direction": "row"
 };
 const overrides = {
 	"stack": {
 		"kind": "Stack",
-		"props": {}
+		"props": {
+			"justify-content": "flex-start",
+			"flex-wrap": "no-wrap",
+			"width": "100%",
+			"align-content": "flex-start",
+			"align-items": "flex-start"
+		}
 	},
 	"stackItem": {
 		"kind": "StackItem",
 		"props": {
-			"width": "50%",
-			"md-width": "100%"
+			"md-width": "100%",
+			"display": "block",
+			"overflow-x": "visible",
+			"overflow-y": "visible",
+			"order": "0",
+			"flex": "1 1 0%",
+			"width": "100%"
 		}
 	},
 	"stackItemOverride": {
 		"kind": "Override",
 		"props": {
 			"slot": "StackItemContent",
-			"flex-direction": "column"
+			"flex-direction": "row",
+			"flex-wrap": "no-wrap",
+			"align-items": "flex-start",
+			"align-content": "flex-start",
+			"justify-content": "center"
 		}
 	},
 	"box": {
 		"kind": "Box",
 		"props": {
-			"padding": "0 0 0 64px",
 			"sm-padding": "64px 0 0 0",
-			"margin": "32px 0 0 0",
 			"max-width": "360px",
-			"position": "relative"
+			"position": "relative",
+			"padding": "0 0 0 64px"
 		}
 	},
 	"icon": {
@@ -46,51 +61,10 @@ const overrides = {
 			"top": "0",
 			"left": "0",
 			"category": "md",
-			"icon": MdAccessibility
-		}
-	},
-	"text": {
-		"kind": "Text",
-		"props": {
-			"as": "p",
-			"margin": "6px 0",
-			"font": "--headline3",
-			"children": <>
-				Elisey Kuziakin{"\n\n"}
-			</>
-		}
-	},
-	"box1": {
-		"kind": "Box",
-		"props": {
-			"padding": "0 0 0 64px",
-			"sm-padding": "64px 0 0 0",
-			"margin": "32px 0 0 0",
-			"max-width": "360px",
-			"position": "relative"
-		}
-	},
-	"icon1": {
-		"kind": "Icon",
-		"props": {
-			"position": "absolute",
-			"size": "48px",
-			"top": "0",
-			"left": "0",
-			"category": "md",
 			"icon": MdLocationOn
 		}
 	},
-	"text1": {
-		"kind": "Text",
-		"props": {
-			"as": "h4",
-			"margin": "6px 0",
-			"font": "--base",
-			"children": "Sijainti"
-		}
-	},
-	"text2": {
+	"text": {
 		"kind": "Text",
 		"props": {
 			"as": "p",
@@ -103,12 +77,106 @@ const overrides = {
 			</>
 		}
 	},
-	"box2": {
+	"stackItem1": {
+		"kind": "StackItem",
+		"props": {
+			"md-width": "100%",
+			"display": "block",
+			"overflow-x": "visible",
+			"overflow-y": "visible",
+			"order": "0",
+			"flex": "1 1 0%"
+		}
+	},
+	"stackItemOverride1": {
+		"kind": "Override",
+		"props": {
+			"slot": "StackItemContent",
+			"flex-direction": "row",
+			"flex-wrap": "no-wrap",
+			"align-items": "flex-start",
+			"width": "25%",
+			"align-content": "flex-start",
+			"justify-content": "center"
+		}
+	},
+	"box1": {
 		"kind": "Box",
 		"props": {
 			"padding": "0 0 0 64px",
 			"sm-padding": "64px 0 0 0",
-			"margin": "64px 0 0 0",
+			"max-width": "360px",
+			"position": "relative"
+		}
+	},
+	"icon1": {
+		"kind": "Icon",
+		"props": {
+			"position": "absolute",
+			"size": "48px",
+			"top": "0",
+			"left": "0",
+			"category": "md",
+			"icon": MdEmail
+		}
+	},
+	"text1": {
+		"kind": "Text",
+		"props": {
+			"as": "p",
+			"margin": "6px 0",
+			"font": "--headline3",
+			"children": <Link
+				href="mailto:hello@company.com"
+				text-decoration="none"
+				hover-text-decoration="underline"
+				color="--light"
+				overflow-wrap="normal"
+				word-break="normal"
+				white-space="normal"
+				text-indent="0"
+				text-overflow="clip"
+				hyphens="manual"
+			>
+				contact@elikuz.com
+				<br />
+				<br />
+			</Link>
+		}
+	},
+	"link": {
+		"kind": "Link",
+		"props": {
+			"href": "#",
+			"background": "url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/Fiverr-Emblem.png?v=2021-06-25T21:51:27.114Z) 0% 0% /100% repeat scroll padding-box"
+		}
+	},
+	"stackItem2": {
+		"kind": "StackItem",
+		"props": {
+			"md-width": "100%",
+			"display": "block",
+			"overflow-x": "visible",
+			"overflow-y": "visible",
+			"order": "0",
+			"flex": "1 1 0%"
+		}
+	},
+	"stackItemOverride2": {
+		"kind": "Override",
+		"props": {
+			"slot": "StackItemContent",
+			"flex-direction": "row",
+			"flex-wrap": "no-wrap",
+			"align-items": "flex-start",
+			"align-content": "flex-start",
+			"justify-content": "center"
+		}
+	},
+	"box2": {
+		"kind": "Box",
+		"props": {
+			"padding": "0 0 0 64px",
 			"max-width": "360px",
 			"position": "relative"
 		}
@@ -121,83 +189,22 @@ const overrides = {
 			"top": "0",
 			"left": "0",
 			"category": "md",
-			"icon": MdEmail
+			"icon": MdPhone
 		}
 	},
-	"text3": {
-		"kind": "Text",
-		"props": {
-			"as": "h4",
-			"margin": "6px 0",
-			"font": "--base",
-			"children": "Email"
-		}
-	},
-	"text4": {
+	"text2": {
 		"kind": "Text",
 		"props": {
 			"as": "p",
 			"margin": "6px 0",
 			"font": "--headline3",
-			"children": <Link href="mailto:hello@company.com" text-decoration="none" hover-text-decoration="underline" color="--light">
-				contact@elikuz.com
-			</Link>
-		}
-	},
-	"link": {
-		"kind": "Link",
-		"props": {
-			"href": "https://instagram.com/elikuzmedia",
-			"border-color": "#ffffff",
-			"color": "#ffffff",
-			"font": "--headline3",
 			"display": "block",
-			"target": "_blank",
-			"children": "Instagram"
+			"children": <>
+				Elisey Kuziakin{"\n\n"}
+			</>
 		}
 	},
-	"link1": {
-		"kind": "Link",
-		"props": {
-			"href": "https://www.fiverr.com/eliseykuziakin",
-			"border-color": "#ffffff",
-			"color": "#ffffff",
-			"font": "--headline3",
-			"display": "block",
-			"target": "_blank",
-			"children": "Fiverr"
-		}
-	},
-	"box3": {
-		"kind": "Box",
-		"props": {
-			"padding": "0 0 0 64px",
-			"margin": "64px 0 0 0",
-			"max-width": "360px",
-			"position": "relative"
-		}
-	},
-	"icon3": {
-		"kind": "Icon",
-		"props": {
-			"position": "absolute",
-			"size": "48px",
-			"top": "0",
-			"left": "0",
-			"category": "md",
-			"icon": MdPhone
-		}
-	},
-	"text5": {
-		"kind": "Text",
-		"props": {
-			"as": "h4",
-			"margin": "6px 0",
-			"font": "--base",
-			"children": "Puhelin"
-		}
-	},
-	"text6": {
+	"text3": {
 		"kind": "Text",
 		"props": {
 			"as": "p",
@@ -206,143 +213,52 @@ const overrides = {
 			"children": "046 555 3684"
 		}
 	},
-	"stackItem1": {
-		"kind": "StackItem",
-		"props": {
-			"width": "50%",
-			"md-width": "100%"
-		}
-	},
-	"box4": {
-		"kind": "Box",
-		"props": {
-			"max-width": "360px",
-			"padding": "56px 48px",
-			"margin": "0 0 0 auto",
-			"md-max-width": "100%",
-			"background": "--color-primary"
-		}
-	},
-	"text7": {
-		"kind": "Text",
-		"props": {
-			"as": "h3",
-			"font": "--headline3",
-			"margin": "0 0 20px 0",
-			"children": "Leave us message"
-		}
-	},
-	"formspree": {
-		"kind": "Formspree",
-		"props": {
-			"endpoint": "https://formspree.io/f/mwkalapg",
-			"completeText": "Thank you for message!"
-		}
-	},
-	"stack1": {
-		"kind": "Stack",
-		"props": {
-			"gap": "16px"
-		}
-	},
-	"stackItem2": {
-		"kind": "StackItem",
-		"props": {
-			"width": "100%"
-		}
-	},
-	"stackItemOverride1": {
-		"kind": "Override",
-		"props": {
-			"slot": "StackItemContent",
-			"flex-direction": "column"
-		}
-	},
-	"text8": {
-		"kind": "Text",
-		"props": {
-			"font": "--base",
-			"margin": "0 0 4px 0",
-			"children": "Name"
-		}
-	},
-	"input": {
-		"kind": "Input",
-		"props": {
-			"width": "100%",
-			"name": "name"
-		}
-	},
 	"stackItem3": {
 		"kind": "StackItem",
 		"props": {
-			"width": "100%"
-		}
-	},
-	"stackItemOverride2": {
-		"kind": "Override",
-		"props": {
-			"slot": "StackItemContent",
-			"flex-direction": "column"
-		}
-	},
-	"text9": {
-		"kind": "Text",
-		"props": {
-			"font": "--base",
-			"margin": "0 0 4px 0",
-			"children": "Email"
-		}
-	},
-	"input1": {
-		"kind": "Input",
-		"props": {
-			"width": "100%",
-			"type": "email",
-			"name": "email"
-		}
-	},
-	"stackItem4": {
-		"kind": "StackItem",
-		"props": {
-			"width": "100%"
+			"md-width": "100%",
+			"display": "block",
+			"overflow-x": "visible",
+			"overflow-y": "visible",
+			"order": "0",
+			"flex": "1 1 0%",
+			"children": <>
+				<Link
+					href="https://instagram.com/elikuzmedia"
+					border-color="#ffffff"
+					color="#ffffff"
+					font="--headline3"
+					display="block"
+					target="_blank"
+					background="url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/insta.png?v=2021-06-25T22:57:42.759Z) 0% 0% /cover repeat scroll padding-box"
+					height="48px"
+					width="48px"
+					margin="0px 4px 0px 4px"
+				/>
+				<Link
+					href="https://www.fiverr.com/eliseykuziakin"
+					border-color="#ffffff"
+					color="#ffffff"
+					font="--headline3"
+					display="block"
+					target="_blank"
+					background="url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/fiverr.png?v=2021-06-25T22:57:42.759Z) 0% 0% /cover repeat scroll padding-box"
+					height="48px"
+					width="48px"
+					margin="0px 4px 0px 4px"
+				/>
+			</>
 		}
 	},
 	"stackItemOverride3": {
 		"kind": "Override",
 		"props": {
 			"slot": "StackItemContent",
-			"flex-direction": "column"
-		}
-	},
-	"text10": {
-		"kind": "Text",
-		"props": {
-			"font": "--base",
-			"margin": "0 0 4px 0",
-			"children": "Message"
-		}
-	},
-	"input2": {
-		"kind": "Input",
-		"props": {
-			"as": "textarea",
-			"rows": "4",
-			"width": "100%",
-			"name": "message"
-		}
-	},
-	"stackItem5": {
-		"kind": "StackItem",
-		"props": {
-			"width": "100%"
-		}
-	},
-	"button": {
-		"kind": "Button",
-		"props": {
-			"background": "--color-dark",
-			"children": "Send"
+			"flex-direction": "row",
+			"flex-wrap": "no-wrap",
+			"align-items": "flex-start",
+			"align-content": "flex-start",
+			"justify-content": "flex-start"
 		}
 	}
 };
@@ -354,6 +270,15 @@ const Footerendd = props => {
 		rest
 	} = useOverrides(props, overrides, defaultProps);
 	return <Section {...rest}>
+		<Override
+			slot="SectionContent"
+			display="flex"
+			flex-direction="row"
+			width="200%"
+			align-items="flex-start"
+			flex-wrap="no-wrap"
+			align-content="flex-start"
+		/>
 		<Stack {...override("stack")}>
 			<StackItem {...override("stackItem")}>
 				<Override {...override("stackItemOverride")} />
@@ -361,50 +286,25 @@ const Footerendd = props => {
 					<Icon {...override("icon")} />
 					<Text {...override("text")} />
 				</Box>
+			</StackItem>
+			<StackItem {...override("stackItem1")}>
+				<Override {...override("stackItemOverride1")} />
 				<Box {...override("box1")}>
 					<Icon {...override("icon1")} />
 					<Text {...override("text1")} />
-					<Text {...override("text2")} />
-				</Box>
-				<Box {...override("box2")}>
-					<Icon {...override("icon2")} />
-					<Text {...override("text3")} />
-					<Text {...override("text4")} />
 					<Link {...override("link")} />
-					<Link {...override("link1")} />
-				</Box>
-				<Box {...override("box3")}>
-					<Icon {...override("icon3")} />
-					<Text {...override("text5")} />
-					<Text {...override("text6")} />
 				</Box>
 			</StackItem>
-			<StackItem {...override("stackItem1")}>
-				<Box {...override("box4")}>
-					<Text {...override("text7")} />
-					<Formspree {...override("formspree")}>
-						<Stack {...override("stack1")}>
-							<StackItem {...override("stackItem2")}>
-								<Override {...override("stackItemOverride1")} />
-								<Text {...override("text8")} />
-								<Input {...override("input")} />
-							</StackItem>
-							<StackItem {...override("stackItem3")}>
-								<Override {...override("stackItemOverride2")} />
-								<Text {...override("text9")} />
-								<Input {...override("input1")} />
-							</StackItem>
-							<StackItem {...override("stackItem4")}>
-								<Override {...override("stackItemOverride3")} />
-								<Text {...override("text10")} />
-								<Input {...override("input2")} />
-							</StackItem>
-							<StackItem {...override("stackItem5")}>
-								<Button {...override("button")} />
-							</StackItem>
-						</Stack>
-					</Formspree>
+			<StackItem {...override("stackItem2")}>
+				<Override {...override("stackItemOverride2")} />
+				<Box {...override("box2")}>
+					<Icon {...override("icon2")} />
+					<Text {...override("text2")} />
+					<Text {...override("text3")} />
 				</Box>
+			</StackItem>
+			<StackItem {...override("stackItem3")}>
+				<Override {...override("stackItemOverride3")} />
 			</StackItem>
 		</Stack>
 		{children}

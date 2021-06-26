@@ -35,7 +35,7 @@ export default (() => {
 					text-transform="uppercase"
 					margin="6px 0"
 				>
-					120 €{" "}
+					65 €{" "}
 				</Text>
 				<Text as="h2" font="--headline2" margin="0 0 12px 0">
 					Pari- ja perhekuvaus miljöössä

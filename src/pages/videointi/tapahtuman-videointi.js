@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Section } from "@quarkly/widgets";
+import { Theme, Link, Text, Strong, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -31,7 +31,10 @@ export default (() => {
 					Tapahtuman videointi
 				</Text>
 				<Text font="--base">
-					Keikat, häät, hautajaiset, syntymäpäivät, ristiäiset, jne.
+					<Strong>
+						Keikat, häät, hautajaiset, syntymäpäivät, ristiäiset, jne.
+					</Strong>
+					<br />
 					<br />
 					• Sovitaan hintaa videon pituuden ja monimutkaisuuden perustella
 					<br />
@@ -42,7 +45,6 @@ export default (() => {
 					<br />
 					<br />
 					Varaa aika videoinniin puh. 046 555 3684 tai contact@elikuz.com avulla
-					<br />
 					<br />
 				</Text>
 			</Box>

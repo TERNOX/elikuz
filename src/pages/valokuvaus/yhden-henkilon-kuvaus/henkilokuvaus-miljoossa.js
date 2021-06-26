@@ -41,8 +41,15 @@ export default (() => {
 				text-transform="uppercase"
 				letter-spacing="5px"
 			>
-				<Strong>
-					110 €{"\n\n"}
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					55 €{"\n\n"}
 				</Strong>
 			</Text>
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
