@@ -224,6 +224,7 @@ export default (() => {
 			position="relative"
 			background="linear-gradient(0deg,rgba(25, 30, 34, 0.8) 0%,rgba(25, 30, 34, 0.8) 100%),--color-darkL2 url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0.jpg?v=2021-06-25T22:51:12.820Z) 0% 65%/cover"
 			flex-direction="row"
+			inner-max-width="1437px"
 		>
 			<Override
 				slot="SectionContent"
@@ -287,7 +288,6 @@ export default (() => {
 						flex-direction="row"
 						flex-wrap="no-wrap"
 						align-items="flex-start"
-						width="25%"
 						align-content="flex-start"
 						justify-content="center"
 					/>
@@ -370,30 +370,32 @@ export default (() => {
 						align-content="flex-start"
 						justify-content="flex-start"
 					/>
-					<Link
-						href="https://instagram.com/elikuzmedia"
-						border-color="#ffffff"
-						color="#ffffff"
-						font="--headline3"
-						display="block"
-						target="_blank"
-						background="url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/insta.png?v=2021-06-25T22:57:42.759Z) 0% 0% /cover repeat scroll padding-box"
-						height="48px"
-						width="48px"
-						margin="0px 4px 0px 4px"
-					/>
-					<Link
-						href="https://www.fiverr.com/eliseykuziakin"
-						border-color="#ffffff"
-						color="#ffffff"
-						font="--headline3"
-						display="block"
-						target="_blank"
-						background="url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/fiverr.png?v=2021-06-25T22:57:42.759Z) 0% 0% /cover repeat scroll padding-box"
-						height="48px"
-						width="48px"
-						margin="0px 4px 0px 4px"
-					/>
+					<Box width="100%" order="0" flex="0 0 auto" display="flex">
+						<Link
+							href="https://instagram.com/elikuzmedia"
+							border-color="#ffffff"
+							color="#ffffff"
+							font="--headline3"
+							display="block"
+							target="_blank"
+							background="url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/insta.png?v=2021-06-25T22:57:42.759Z) 0% 0% /cover repeat scroll padding-box"
+							height="48px"
+							width="48px"
+							margin="0px 4px 0px 4px"
+						/>
+						<Link
+							href="https://www.fiverr.com/eliseykuziakin"
+							border-color="#ffffff"
+							color="#ffffff"
+							font="--headline3"
+							display="block"
+							target="_blank"
+							background="url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/fiverr.png?v=2021-06-25T22:57:42.759Z) 0% 0% /cover repeat scroll padding-box"
+							height="48px"
+							width="48px"
+							margin="0px 4px 0px 4px"
+						/>
+					</Box>
 				</StackItem>
 			</Stack>
 		</Section>
