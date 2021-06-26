@@ -221,7 +221,27 @@ const overrides = {
 			"overflow-x": "visible",
 			"overflow-y": "visible",
 			"order": "0",
-			"flex": "1 1 0%",
+			"flex": "1 1 0%"
+		}
+	},
+	"stackItemOverride3": {
+		"kind": "Override",
+		"props": {
+			"slot": "StackItemContent",
+			"flex-direction": "row",
+			"flex-wrap": "no-wrap",
+			"align-items": "flex-start",
+			"align-content": "flex-start",
+			"justify-content": "flex-start"
+		}
+	},
+	"box3": {
+		"kind": "Box",
+		"props": {
+			"width": "100%",
+			"order": "0",
+			"flex": "0 0 auto",
+			"display": "flex",
 			"children": <>
 				<Link
 					href="https://instagram.com/elikuzmedia"
@@ -248,17 +268,6 @@ const overrides = {
 					margin="0px 4px 0px 4px"
 				/>
 			</>
-		}
-	},
-	"stackItemOverride3": {
-		"kind": "Override",
-		"props": {
-			"slot": "StackItemContent",
-			"flex-direction": "row",
-			"flex-wrap": "no-wrap",
-			"align-items": "flex-start",
-			"align-content": "flex-start",
-			"justify-content": "flex-start"
 		}
 	}
 };
@@ -305,6 +314,7 @@ const Footerendd = props => {
 			</StackItem>
 			<StackItem {...override("stackItem3")}>
 				<Override {...override("stackItemOverride3")} />
+				<Box {...override("box3")} />
 			</StackItem>
 		</Stack>
 		{children}
