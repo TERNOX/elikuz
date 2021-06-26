@@ -9,7 +9,7 @@ const defaultProps = {
 	"background": "linear-gradient(0deg,rgba(25, 30, 34, 0.8) 0%,rgba(25, 30, 34, 0.8) 100%),--color-darkL2 url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0.jpg?v=2021-06-25T22:51:12.820Z) 0% 65%/cover",
 	"flex-direction": "row",
 	"inner-max-width": "1437px",
-	"padding": "100px 100px 100px 100px"
+	"padding": "100px 0 100px 0"
 };
 const overrides = {
 	"stack": {
@@ -31,7 +31,7 @@ const overrides = {
 			"overflow-y": "visible",
 			"order": "0",
 			"flex": "1 1 0%",
-			"width": "100%"
+			"width": "25%"
 		}
 	},
 	"stackItemOverride": {
@@ -86,7 +86,8 @@ const overrides = {
 			"overflow-x": "visible",
 			"overflow-y": "visible",
 			"order": "0",
-			"flex": "1 1 0%"
+			"flex": "1 1 0%",
+			"width": "25%"
 		}
 	},
 	"stackItemOverride1": {
@@ -159,7 +160,8 @@ const overrides = {
 			"overflow-x": "visible",
 			"overflow-y": "visible",
 			"order": "0",
-			"flex": "1 1 0%"
+			"flex": "1 1 0%",
+			"width": "25%"
 		}
 	},
 	"stackItemOverride2": {
@@ -221,7 +223,8 @@ const overrides = {
 			"overflow-x": "visible",
 			"overflow-y": "visible",
 			"order": "0",
-			"flex": "1 1 0%"
+			"flex": "1 1 0%",
+			"width": "25%"
 		}
 	},
 	"stackItemOverride3": {
@@ -283,7 +286,6 @@ const Footerendd = props => {
 			slot="SectionContent"
 			display="flex"
 			flex-direction="row"
-			width="200%"
 			align-items="flex-start"
 			flex-wrap="no-wrap"
 			align-content="flex-start"
