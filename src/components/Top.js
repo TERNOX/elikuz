@@ -29,7 +29,8 @@ const overrides = {
 		"props": {
 			"width": "25%",
 			"lg-width": "100%",
-			"margin": "0px 0px 0px 0px"
+			"margin": "0px 0px 0px 0px",
+			"md-width": "100%"
 		}
 	},
 	"stackItemOverride": {
@@ -38,7 +39,9 @@ const overrides = {
 			"slot": "StackItemContent",
 			"color": "--dark",
 			"background": "--color-darkL2",
-			"flex-direction": "column"
+			"flex-direction": "column",
+			"md-align-items": "center",
+			"md-padding": "0px 61px 0px 0px"
 		}
 	},
 	"box": {
@@ -76,7 +79,8 @@ const overrides = {
 			"align-content": "center",
 			"justify-content": "center",
 			"align-items": "center",
-			"width": "75%"
+			"width": "75%",
+			"md-width": "100%"
 		}
 	},
 	"stackItemOverride1": {

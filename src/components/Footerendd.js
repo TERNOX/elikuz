@@ -19,19 +19,23 @@ const overrides = {
 			"margin": "40px 0 20px 0",
 			"justify-content": "space-around",
 			"sm-flex-direction": "column",
-			"width": "100%"
+			"width": "100%",
+			"sm-justify-content": "space-around",
+			"sm-align-items": "flex-start",
+			"md-display": "block"
 		}
 	},
 	"box1": {
 		"kind": "Box",
 		"props": {
-			"padding": "10px"
+			"padding": "10px",
+			"sm-width": "90%"
 		}
 	},
 	"box2": {
 		"kind": "Box",
 		"props": {
-			"sm-padding": "64px 0 0 0",
+			"sm-padding": "0 0 0 64px",
 			"max-width": "360px",
 			"position": "relative",
 			"padding": "0 0 0 64px"
@@ -64,16 +68,18 @@ const overrides = {
 	"box3": {
 		"kind": "Box",
 		"props": {
-			"padding": "10px"
+			"padding": "10px",
+			"sm-width": "90%"
 		}
 	},
 	"box4": {
 		"kind": "Box",
 		"props": {
 			"padding": "0 0 0 64px",
-			"sm-padding": "64px 0 0 0",
+			"sm-padding": "0 0 0 64px",
 			"max-width": "360px",
-			"position": "relative"
+			"position": "relative",
+			"lg-padding": "34px 0 0 0"
 		}
 	},
 	"icon1": {
@@ -107,21 +113,14 @@ const overrides = {
 			>
 				contact@elikuz.com
 				<br />
-				<br />
 			</Link>
-		}
-	},
-	"link": {
-		"kind": "Link",
-		"props": {
-			"href": "#",
-			"background": "url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/Fiverr-Emblem.png?v=2021-06-25T21:51:27.114Z) 0% 0% /100% repeat scroll padding-box"
 		}
 	},
 	"box5": {
 		"kind": "Box",
 		"props": {
-			"padding": "10px"
+			"padding": "10px",
+			"sm-width": "90%"
 		}
 	},
 	"box6": {
@@ -167,7 +166,8 @@ const overrides = {
 	"box7": {
 		"kind": "Box",
 		"props": {
-			"padding": "10px"
+			"padding": "10px",
+			"sm-width": "90%"
 		}
 	},
 	"box8": {
@@ -177,6 +177,7 @@ const overrides = {
 			"order": "0",
 			"flex": "0 0 auto",
 			"display": "flex",
+			"sm-justify-content": "center",
 			"children": <>
 				<Link
 					href="https://instagram.com/elikuzmedia"
@@ -233,7 +234,6 @@ const Footerendd = props => {
 				<Box {...override("box4")}>
 					<Icon {...override("icon1")} />
 					<Text {...override("text1")} />
-					<Link {...override("link")} />
 				</Box>
 			</Box>
 			<Box {...override("box5")}>

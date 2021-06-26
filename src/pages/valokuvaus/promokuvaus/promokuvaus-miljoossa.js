@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml } from "@quarkly/components";
+import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -25,6 +25,7 @@ export default (() => {
 		</Helmet>
 		<Components.Top />
 		<Section padding="140px 0" sm-padding="40px 0" background="url(https://images.unsplash.com/photo-1565098772267-60af42b81ef2?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) center/cover">
+			<Override slot="SectionContent" sm-align-items="center" />
 			<Box max-width="340px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
 				<Text
 					as="h4"

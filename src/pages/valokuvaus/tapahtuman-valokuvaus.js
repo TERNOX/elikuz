@@ -25,7 +25,7 @@ export default (() => {
 		</Helmet>
 		<Components.Top />
 		<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/62.jpg?v=2021-06-23T20:43:41.720Z) center/cover">
-			<Override slot="SectionContent" />
+			<Override slot="SectionContent" sm-align-items="center" />
 			<Box max-width="340px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
 				<Text as="h2" font="--headline2" margin="0 0 12px 0">
 					Tapahtuman valokuvaus
