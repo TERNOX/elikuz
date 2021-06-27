@@ -175,6 +175,8 @@ const overrides = {
 			"hover-color": "--primary",
 			"active-color": "--grey",
 			"sm-font": "normal 300 20px/1.5 --fontFamily-sans",
+			"sm-overflow-y": "visible",
+			"sm-overflow-x": "visible",
 			"children": "Etusivu"
 		}
 	},
