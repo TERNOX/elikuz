@@ -62,7 +62,7 @@ export default (() => {
 				srcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/14.jpg?v=2021-06-27T12:35:37.347Z "
 				src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/14.jpg?v=2021-06-27T12:35:37.347Z"
 				object-fit="contain"
-				background="rgba(0, 0, 0, 0)"
+				background="--color-darkL2"
 				position="sticky"
 			/>
 			<Override
