@@ -42,20 +42,20 @@ export default (() => {
 			</Override>
 			<Override
 				slot="Slide Image"
-				background="rgba(0, 0, 0, 0)"
 				color="#000000"
 				position="sticky"
 				cursor="none"
+				background="--color-darkL2"
 			/>
 			<Override
 				slot="Slide Image 1"
 				srcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/11.jpg?v=2021-06-27T14:26:45.108Z "
 				src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/11.jpg?v=2021-06-27T14:26:45.108Z"
 				object-fit="contain"
-				background="rgba(0, 0, 0, 0)"
 				display="inline-block"
 				border-color="rgba(0, 0, 0, 0)"
 				position="sticky"
+				background="--color-darkL2"
 			/>
 			<Override
 				slot="Slide Image 2"
@@ -74,7 +74,7 @@ export default (() => {
 			/>
 			<Override
 				slot="Slide Image 4"
-				srcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/11.jpg?v=2021-06-27T12:58:16.152Z "
+				srcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0011.jpg?v=2021-06-27T15:06:42.784Z "
 				object-fit="contain"
 				src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/11.jpg?v=2021-06-27T12:58:16.152Z"
 				background="--color-darkL2"
@@ -84,7 +84,7 @@ export default (() => {
 				slot="Slide Image 5"
 				srcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/12.jpg?v=2021-06-27T13:06:35.839Z "
 				object-fit="contain"
-				background="rgba(0, 0, 0, 0)"
+				background="--color-darkL2"
 				src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/12.jpg?v=2021-06-27T13:06:35.839Z"
 			/>
 			<Override
@@ -102,14 +102,16 @@ export default (() => {
 				background="--color-darkL2"
 				cursor="zoom-in"
 			/>
+			<Override slot="Arrow" background="rgba(0, 0, 0, 0) linear-gradient(0deg,rgba(0,0,0,0) 0%,rgba(0, 0, 0, 0) 100%)" />
+			<Override slot="Arrow Next" background="rgba(0, 0, 0, 0) linear-gradient(0deg,rgba(0,0,0,0) 0%,rgba(0, 0, 0, 0) 100%)" />
+			<Override slot="Arrow Prev" background="rgba(0, 0, 0, 0)" />
 		</Components.QuarklycommunityKitCarousel>
 		<Section
 			padding="140px 0"
 			sm-padding="40px 0"
-			background="linear-gradient(0deg,rgba(0, 0, 0, 0.81) 0%,rgba(0, 0, 0, 0.34) 100%),--color-dark url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/00.jpg?v=2021-06-27T13:46:45.489Z) 50% 15%/cover"
 			color="--light"
 			font="--base"
-			hover-background="linear-gradient(0deg,rgba(0,0,0,0.5) 0%,rgba(0,0,0,.2) 100%),--color-dark url(https://images.unsplash.com/photo-1624378804433-656379d28147?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 50% 15%/cover"
+			background="--color-darkL2"
 		>
 			<Stack font="--headline3">
 				<StackItem
@@ -124,7 +126,7 @@ export default (() => {
 						ELIKUZ Media on oululainen toiminimi, joka tarjoaa monipuolista audiovisuaalista sisältöä. Olen jo monta vuotta ammattilainen video- ja valokuvatuottaja sekä säveltäjä ja käsikirjoittaja.{" "}
 					</Text>
 				</StackItem>
-				<StackItem width="33%" lg-width="50%" sm-width="100%" flex="1 1 0%">
+				<StackItem width="33%" lg-width="50%" sm-width="100%" flex="200%">
 					<Text margin="0px" flex="0 1 auto" order="-1">
 						Voit reippasti tilata minulta valokuvauspalveluita, musiikki- ja mainos videoita sekä musiikkia yksityisille ihmisille ja yrityksille. Teen kuvauksia sekä omassa kotistudiossa että missä tahansa studion ulkopuolella.{" "}
 					</Text>
@@ -137,7 +139,7 @@ export default (() => {
 					flex="1 1 0%"
 				>
 					<Text margin="0px">
-						Kun yritykseni on aika nuori vielä, tarjoan omia palveluita mahdollisimman edullisella hinnalla ja olen avoinna henkilökohtaisiin etuihin.
+						Kun yritykseni on vielä aika nuori, tarjoan omia palveluita mahdollisimman edullisella hinnalla ja olen avoinna henkilökohtaisiin etuihin.
 					</Text>
 				</StackItem>
 			</Stack>
