@@ -93,7 +93,8 @@ const overrides = {
 			"align-content": "center",
 			"justify-content": "center",
 			"align-items": "center",
-			"align-self": "center"
+			"align-self": "center",
+			"sm-width": "100%"
 		}
 	},
 	"stackItem2": {
@@ -104,8 +105,7 @@ const overrides = {
 			"align-items": "center",
 			"display": "flex",
 			"justify-content": "center",
-			"align-content": "center",
-			"sm-width": "100%"
+			"align-content": "center"
 		}
 	},
 	"stackItemOverride2": {
@@ -114,7 +114,8 @@ const overrides = {
 			"slot": "StackItemContent",
 			"justify-content": "center",
 			"align-items": "center",
-			"padding": "0px 33% 0px 0px"
+			"padding": "0px 33% 0px 0px",
+			"sm-font": "normal 300 20px/1.5 --fontFamily-sans"
 		}
 	},
 	"box1": {
@@ -124,7 +125,8 @@ const overrides = {
 			"border-color": "#ffffff",
 			"hover-border-color": "--color-primary",
 			"align-self": "center",
-			"sm-width": "100%"
+			"sm-font": "normal 300 20px/1.5 --fontFamily-sans",
+			"sm-margin": "2px 0px 0px 0"
 		}
 	},
 	"quarklycommunityKitMenuWithGroups": {
@@ -139,15 +141,17 @@ const overrides = {
 			"width": "100%",
 			"justify-content": "left",
 			"tabState": "collapseAll",
+			"sm-font": "normal 300 20px/1.5 --fontFamily-sans",
+			"sm-width": "100%",
 			"sm-display": "block",
-			"sm-width": "100%"
+			"sm-min-width": "289px"
 		}
 	},
 	"quarklycommunityKitMenuWithGroupsOverride": {
 		"kind": "Override",
 		"props": {
 			"slot": "Sub Head Text-videointi",
-			"sm-font": "normal 300 24px/1.5 --fontFamily-sans",
+			"sm-font": "normal 300 20px/1.5 --fontFamily-sans",
 			"children": "Videointi"
 		}
 	},
@@ -157,7 +161,7 @@ const overrides = {
 			"slot": "Item",
 			"border-color": "#ffffff",
 			"font": "normal 700 28px/1.5 --fontFamily-sans",
-			"sm-font": "normal 300 24px/1.5 --fontFamily-sans"
+			"sm-font": "normal 300 20px/1.5 --fontFamily-sans"
 		}
 	},
 	"quarklycommunityKitMenuWithGroupsOverride2": {
@@ -170,7 +174,7 @@ const overrides = {
 			"color": "--light",
 			"hover-color": "--primary",
 			"active-color": "--grey",
-			"sm-font": "normal 300 24px/1.5 --fontFamily-sans",
+			"sm-font": "normal 300 20px/1.5 --fontFamily-sans",
 			"children": "Etusivu"
 		}
 	},
@@ -202,6 +206,7 @@ const overrides = {
 		"kind": "Override",
 		"props": {
 			"slot": "Sub Head Text-valokuvaus",
+			"sm-font": "normal 300 20px/1.5 --fontFamily-sans",
 			"children": "Valokuvaus"
 		}
 	},
@@ -253,7 +258,9 @@ const overrides = {
 			"slot": "Sub Head Icon",
 			"category": "io",
 			"icon": IoIosArrowDown,
-			"font": "200 22px/24px -apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif"
+			"font": "200 22px/24px -apple-system, system-ui, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+			"sm-font": "normal 300 20px/1.5 --fontFamily-sans",
+			"sm-align-self": "flex-end"
 		}
 	},
 	"quarklycommunityKitMenuWithGroupsOverride14": {
@@ -276,14 +283,36 @@ const overrides = {
 		"props": {
 			"slot": "Sub Head Text",
 			"hover-color": "--primary",
-			"hover-width": "100% border-box"
+			"hover-width": "100% border-box",
+			"sm-font": "normal 300 20px/1.5 --fontFamily-sans"
 		}
 	},
 	"quarklycommunityKitMenuWithGroupsOverride17": {
 		"kind": "Override",
 		"props": {
 			"slot": "Sub Head",
-			"hover-color": "--primary"
+			"hover-color": "--primary",
+			"sm-font": "normal 300 20px/1.5 --fontFamily-sans"
+		}
+	},
+	"quarklycommunityKitMenuWithGroupsOverride18": {
+		"kind": "Override",
+		"props": {
+			"slot": "Sub Body",
+			"sm-font": "normal 300 20px/1.5 --fontFamily-sans"
+		}
+	},
+	"quarklycommunityKitMenuWithGroupsOverride19": {
+		"kind": "Override",
+		"props": {
+			"slot": "List",
+			"sm-font": "normal 300 20px/1.5 --fontFamily-sans"
+		}
+	},
+	"quarklycommunityKitMenuWithGroupsOverride20": {
+		"kind": "Override",
+		"props": {
+			"slot": "Sub Head Text :closed"
 		}
 	}
 };
@@ -325,6 +354,9 @@ const Top = props => {
 							<Override {...override("quarklycommunityKitMenuWithGroupsOverride15")} />
 							<Override {...override("quarklycommunityKitMenuWithGroupsOverride16")} />
 							<Override {...override("quarklycommunityKitMenuWithGroupsOverride17")} />
+							<Override {...override("quarklycommunityKitMenuWithGroupsOverride18")} />
+							<Override {...override("quarklycommunityKitMenuWithGroupsOverride19")} />
+							<Override {...override("quarklycommunityKitMenuWithGroupsOverride20")} />
 						</QuarklycommunityKitMenuWithGroups>
 					</Box>
 				</StackItem>
