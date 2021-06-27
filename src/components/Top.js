@@ -49,6 +49,7 @@ const overrides = {
 		"props": {
 			"display": "flex",
 			"margin": "0px 0px 0px 15%",
+			"hover-cursor": "none",
 			"children": <Link
 				href="https://elikuz.com/"
 				color="#ffffff"
@@ -146,6 +147,7 @@ const overrides = {
 		"kind": "Override",
 		"props": {
 			"slot": "Sub Head Text-videointi",
+			"sm-font": "normal 300 24px/1.5 --fontFamily-sans",
 			"children": "Videointi"
 		}
 	},
@@ -154,7 +156,8 @@ const overrides = {
 		"props": {
 			"slot": "Item",
 			"border-color": "#ffffff",
-			"font": "normal 700 28px/1.5 --fontFamily-sans"
+			"font": "normal 700 28px/1.5 --fontFamily-sans",
+			"sm-font": "normal 300 24px/1.5 --fontFamily-sans"
 		}
 	},
 	"quarklycommunityKitMenuWithGroupsOverride2": {
@@ -167,6 +170,7 @@ const overrides = {
 			"color": "--light",
 			"hover-color": "--primary",
 			"active-color": "--grey",
+			"sm-font": "normal 300 24px/1.5 --fontFamily-sans",
 			"children": "Etusivu"
 		}
 	},
@@ -174,21 +178,24 @@ const overrides = {
 		"kind": "Override",
 		"props": {
 			"slot": "Item-404",
-			"display": "none"
+			"display": "none",
+			"sm-font": "normal 300 24px/1.5 --fontFamily-sans"
 		}
 	},
 	"quarklycommunityKitMenuWithGroupsOverride4": {
 		"kind": "Override",
 		"props": {
 			"slot": "Item :active",
-			"color": "--primary"
+			"color": "--primary",
+			"sm-font": "normal 300 24px/1.5 --fontFamily-sans"
 		}
 	},
 	"quarklycommunityKitMenuWithGroupsOverride5": {
 		"kind": "Override",
 		"props": {
 			"slot": "Link-videointi",
-			"display": "none"
+			"display": "none",
+			"sm-font": "normal 300 24px/1.5 --fontFamily-sans"
 		}
 	},
 	"quarklycommunityKitMenuWithGroupsOverride6": {
@@ -260,6 +267,7 @@ const overrides = {
 		"kind": "Override",
 		"props": {
 			"slot": "Link :active",
+			"sm-font": "normal 300 24px/1.5 --fontFamily-sans",
 			"children": "Home"
 		}
 	},

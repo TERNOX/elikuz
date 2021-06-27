@@ -19,9 +19,7 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
 		</Helmet>
-		<Components.Top background="--color-darkL2">
-			<Override slot="box" hover-cursor="none" />
-		</Components.Top>
+		<Components.Top />
 		<Components.QuarklycommunityKitCarousel
 			showHead={false}
 			showLink={false}

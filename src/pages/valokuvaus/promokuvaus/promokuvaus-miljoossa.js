@@ -29,7 +29,7 @@ export default (() => {
 			<Box
 				max-width="340px"
 				padding="50px 80px 80px 50px"
-				background="--color-light"
+				background="rgba(247, 251, 255, 0.75)"
 				color="--dark"
 				opacity="1"
 			>

@@ -3,5 +3,5 @@ export { default as QuarklycommunityKitMenuWithGroups } from "./Quarklycommunity
 export { default as QuarklycommunityKitCarousel } from "./QuarklycommunityKitCarousel"
 export { default as Footerendd } from "./Footerendd"
 export { default as QuarklycommunityKitGallery } from "./QuarklycommunityKitGallery"
-export { default as Primer } from "./Primer"
 export { default as Ebafoto } from "./Ebafoto"
+export { default as Primer } from "./Primer"

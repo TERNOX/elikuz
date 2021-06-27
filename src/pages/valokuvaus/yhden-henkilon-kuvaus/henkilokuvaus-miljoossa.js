@@ -37,6 +37,10 @@ export default (() => {
 			borderWidthProp="0"
 			transition="all --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
 			min-height="1226px"
+			sm-overflow-x="hidden"
+			sm-overflow-y="hidden"
+			sm-min-height="100%"
+			sm-width="100%"
 		>
 			<Override
 				slot="Item 0"
@@ -61,6 +65,8 @@ export default (() => {
 				transition="visibility --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
 				opacity="1"
 				columsNumb="5"
+				sm-overflow-x="hidden"
+				sm-overflow-y="hidden"
 			/>
 			<Override
 				slot="Item 1"

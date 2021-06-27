@@ -102,6 +102,8 @@ export default (() => {
 			aspectRatioProp="4:3"
 			columnsCountProp="3"
 			autoFillInProp
+			sm-overflow-x="hidden"
+			sm-overflow-y="hidden"
 		>
 			<Override
 				slot="Item 0"

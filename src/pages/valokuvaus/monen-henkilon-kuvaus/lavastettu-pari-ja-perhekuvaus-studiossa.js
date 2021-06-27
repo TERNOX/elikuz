@@ -26,7 +26,7 @@ export default (() => {
 		<Components.Top />
 		<Section padding="140px 0" sm-padding="40px 0" background="url(https://images.unsplash.com/photo-1607878455883-08baf3a6ad2b?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000) left/cover">
 			<Override slot="SectionContent" sm-align-items="center" />
-			<Box max-width="340px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
+			<Box max-width="340px" padding="50px 80px 80px 50px" background="rgba(247, 251, 255, 0.75)" color="--dark">
 				<Text
 					as="h4"
 					font="--base"

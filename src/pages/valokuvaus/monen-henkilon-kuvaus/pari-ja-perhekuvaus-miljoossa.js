@@ -24,9 +24,9 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
 		</Helmet>
 		<Components.Top />
-		<Section padding="140px 0" sm-padding="40px 0" background="url(https://images.unsplash.com/flagged/photo-1568041193043-e86f15540986?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) center/cover">
+		<Section padding="140px 0" sm-padding="40px 0" background="url(https://images.unsplash.com/photo-1506836467174-27f1042aa48c?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000) center/cover">
 			<Override slot="SectionContent" align-items="flex-end" sm-align-items="center" />
-			<Box max-width="340px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
+			<Box max-width="340px" padding="50px 80px 80px 50px" background="rgba(247, 251, 255, 0.75)" color="--dark">
 				<Text
 					as="h4"
 					font="--base"

@@ -31,7 +31,7 @@ export default (() => {
 			height="100%"
 			background="rgb(0, 119, 204) url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/%D0%A1%D0%B2.jpg?v=2021-06-27T11:40:41.422Z) 0% 50% /100% repeat scroll padding-box"
 		>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+			<Text as="h1" font="--headline2" md-font="--headline2" margin="10px 0 0 0">
 				404 Sivua ei löydy
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">

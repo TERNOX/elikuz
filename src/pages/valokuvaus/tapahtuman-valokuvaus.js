@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Section } from "@quarkly/widgets";
+import { Theme, Link, Text, Strong, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -26,12 +26,14 @@ export default (() => {
 		<Components.Top />
 		<Section padding="140px 0" sm-padding="40px 0" background="url(https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/back5.jpg?v=2021-06-26T19:15:18.467Z) center/cover">
 			<Override slot="SectionContent" sm-align-items="center" />
-			<Box max-width="340px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
+			<Box max-width="340px" padding="50px 80px 80px 50px" background="rgba(247, 251, 255, 0.75)" color="--dark">
 				<Text as="h2" font="--headline2" margin="0 0 12px 0">
 					Tapahtuman valokuvaus
 				</Text>
 				<Text font="--base">
-					Keikat, häät, hautajaiset, syntymäpäivät, ristiäiset, jne.
+					<Strong>
+						Keikat, häät, hautajaiset, syntymäpäivät, ristiäiset, jne.
+					</Strong>
 					<br />
 					<br />
 					• 90 € ensimmäinen tunti 70 € seuraavilta alkavilta tunneilta
