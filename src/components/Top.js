@@ -177,6 +177,7 @@ const overrides = {
 			"sm-font": "normal 300 20px/1.5 --fontFamily-sans",
 			"sm-overflow-y": "visible",
 			"sm-overflow-x": "visible",
+			"white-space": "break-spaces",
 			"children": "Etusivu"
 		}
 	},

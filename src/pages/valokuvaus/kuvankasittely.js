@@ -58,7 +58,9 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Components.Footerendd />
+		<Components.Footerendd>
+			<Override slot="text" white-space="break-spaces" />
+		</Components.Footerendd>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
