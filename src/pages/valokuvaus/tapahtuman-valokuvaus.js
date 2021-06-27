@@ -42,7 +42,9 @@ export default (() => {
 					{"\n\n"}Valokuvaukset vain Oulunseudulla
 					<br />
 					<br />
-					Varaa aika kuvaukseen puh. 046 555 3684 tai contact@elikuz.com avulla
+					Varaa aika kuvaukseen
+					<br />
+					puh. 046 555 3684 tai contact@elikuz.com avulla
 				</Text>
 			</Box>
 		</Section>

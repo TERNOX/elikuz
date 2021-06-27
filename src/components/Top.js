@@ -103,7 +103,8 @@ const overrides = {
 			"align-items": "center",
 			"display": "flex",
 			"justify-content": "center",
-			"align-content": "center"
+			"align-content": "center",
+			"sm-width": "100%"
 		}
 	},
 	"stackItemOverride2": {
@@ -121,7 +122,8 @@ const overrides = {
 			"margin": "2px 0px 0px 20px",
 			"border-color": "#ffffff",
 			"hover-border-color": "--color-primary",
-			"align-self": "center"
+			"align-self": "center",
+			"sm-width": "100%"
 		}
 	},
 	"quarklycommunityKitMenuWithGroups": {
@@ -135,7 +137,9 @@ const overrides = {
 			"border-color": "#ffffff",
 			"width": "100%",
 			"justify-content": "left",
-			"tabState": "collapseAll"
+			"tabState": "collapseAll",
+			"sm-display": "block",
+			"sm-width": "100%"
 		}
 	},
 	"quarklycommunityKitMenuWithGroupsOverride": {

@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Section } from "@quarkly/widgets";
+import { Theme, Link, Text, Span, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -39,15 +39,24 @@ export default (() => {
 					Tuotekuvaus 29 €{"\n\n"}
 				</Text>
 				<Text font="--base">
-					• 0,5 t kuvausaika
-					<br />
-					• Valitset itse taustavaria
-					<br />
-					• Hinta sisältää monia koevedoksia
-					<br />
-					• Ikä ei vaikuttaa hintaan
-					<br />
-					• Kuvankäsittely kuuluu hintaan
+					<Span
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						• 0,5 t kuvausaika
+						<br />
+						• Valitset itse taustavaria
+						<br />
+						• Hinta sisältää monia koevedoksia
+						<br />
+						• Ikä ei vaikuttaa hintaan
+						<br />
+						• Kuvankäsittely kuuluu hintaan
+					</Span>
 					<br />
 					<br />
 					Varaa aika kuvaukseen

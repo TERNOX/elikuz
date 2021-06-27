@@ -31,7 +31,14 @@ export default (() => {
 					Tapahtuman videointi
 				</Text>
 				<Text font="--base">
-					<Strong>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
 						Keikat, häät, hautajaiset, syntymäpäivät, ristiäiset, jne.
 					</Strong>
 					<br />
@@ -44,8 +51,9 @@ export default (() => {
 					Videokuvaukset vain Oulunseudulla
 					<br />
 					<br />
-					Varaa aika videoinniin puh. 046 555 3684 tai contact@elikuz.com avulla
+					Varaa aika videoinniin
 					<br />
+					puh. 046 555 3684 tai contact@elikuz.com avulla
 				</Text>
 			</Box>
 		</Section>

@@ -49,7 +49,9 @@ export default (() => {
 					Kerro omaa ideaa videosta ja sovimme hintaan riippuen videon monimutkaisuudesta.
 					<br />
 					<br />
-					Varaa aika videoinniin puh. 046 555 3684 tai contact@elikuz.com avulla{"\n\n"}
+					Varaa aika videoinniin
+					<br />
+					puh. 046 555 3684 tai contact@elikuz.com avulla{"\n\n"}
 				</Text>
 			</Box>
 		</Section>

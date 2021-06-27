@@ -95,7 +95,7 @@ export default (() => {
 				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/9.jpg?v=2021-06-23T18:04:28.481Z"
 				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/9.jpg?v=2021-06-23T18:04:28.481Z "
 				columsNumb="2"
-				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0.jpg?v=2021-06-25T22:51:12.820Z"
+				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/9.jpg?v=2021-06-23T18:04:28.481Z "
 			/>
 			<Override
 				slot="Item 6"
@@ -114,7 +114,7 @@ export default (() => {
 				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/8.jpg?v=2021-06-23T18:04:28.999Z"
 				columsNumb="2"
 				rowsNumb="3"
-				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0.jpg?v=2021-06-25T22:51:12.820Z"
+				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/8.jpg?v=2021-06-23T18:04:28.999Z "
 			/>
 			<Override
 				slot="Item 9"
