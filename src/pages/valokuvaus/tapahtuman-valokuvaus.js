@@ -50,7 +50,73 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Components.Ebafoto />
+		<Components.Ebafoto>
+			<Override
+				slot="Item 0"
+				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/001p.jpg?v=2021-06-30T03:16:15.836Z"
+				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/001.jpg?v=2021-06-30T03:16:23.098Z"
+				showFullImage={false}
+				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/001p.jpg?v=2021-06-30T03:16:15.836Z "
+				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/001.jpg?v=2021-06-30T03:16:23.098Z "
+			/>
+			<Override slot="Item" />
+			<Override
+				slot="Item 1"
+				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/002p.jpg?v=2021-06-30T03:19:15.061Z"
+				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/002.jpg?v=2021-06-30T03:19:21.402Z"
+				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/002.jpg?v=2021-06-30T03:19:21.402Z "
+				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/002p.jpg?v=2021-06-30T03:19:15.061Z "
+			/>
+			<Override
+				slot="Item 2"
+				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/003p.jpg?v=2021-06-30T03:20:14.877Z "
+				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/003p.jpg?v=2021-06-30T03:20:14.877Z"
+				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/003.jpg?v=2021-06-30T03:20:25.712Z "
+				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/003.jpg?v=2021-06-30T03:20:25.712Z"
+			/>
+			<Override
+				slot="Item 3"
+				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/004p.jpg?v=2021-06-30T03:20:40.858Z "
+				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/004p.jpg?v=2021-06-30T03:20:40.858Z"
+				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/004.jpg?v=2021-06-30T03:20:46.328Z "
+				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/004.jpg?v=2021-06-30T03:20:46.328Z"
+			/>
+			<Override
+				slot="Item 4"
+				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/005p.jpg?v=2021-06-30T03:21:19.991Z "
+				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/005p.jpg?v=2021-06-30T03:21:19.991Z"
+				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/005.jpg?v=2021-06-30T03:21:33.652Z "
+				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/005.jpg?v=2021-06-30T03:21:33.652Z"
+			/>
+			<Override
+				slot="Item 5"
+				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/007p.jpg?v=2021-06-30T03:21:54.611Z "
+				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/007p.jpg?v=2021-06-30T03:21:54.611Z"
+				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/007.jpg?v=2021-06-30T03:22:11.592Z "
+				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/007.jpg?v=2021-06-30T03:22:11.592Z"
+			/>
+			<Override
+				slot="Item 7"
+				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/008p.jpg?v=2021-06-30T03:22:28.126Z "
+				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/008p.jpg?v=2021-06-30T03:22:28.126Z"
+				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/008.jpg?v=2021-06-30T03:22:40.443Z "
+				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/008.jpg?v=2021-06-30T03:22:40.443Z"
+			/>
+			<Override
+				slot="Item 6"
+				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/006p.jpg?v=2021-06-30T03:22:58.169Z "
+				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/006p.jpg?v=2021-06-30T03:22:58.169Z"
+				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/006p.jpg?v=2021-06-30T03:22:58.169Z "
+				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/006p.jpg?v=2021-06-30T03:22:58.169Z"
+			/>
+			<Override
+				slot="Item 8"
+				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/009p.jpg?v=2021-06-30T03:23:20.488Z "
+				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/009p.jpg?v=2021-06-30T03:23:20.488Z"
+				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/009.jpg?v=2021-06-30T03:23:34.278Z "
+				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/009.jpg?v=2021-06-30T03:23:34.278Z"
+			/>
+		</Components.Ebafoto>
 		<Components.Footerendd />
 		<Link
 			font={"--capture"}
