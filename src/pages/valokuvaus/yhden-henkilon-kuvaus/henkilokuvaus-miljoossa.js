@@ -107,6 +107,7 @@ export default (() => {
 				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out10.jpg?v=2021-06-30T03:14:59.804Z"
 				columsNumb="4"
 				rowsNumb="3"
+				stretchFull
 			/>
 			<Override
 				slot="Item 8"
@@ -118,7 +119,13 @@ export default (() => {
 			<Override slot="Lightbox">
 				<Override slot="Image" object-fit="contain" />
 			</Override>
-			<Override slot="Item 10" columsNumb="4" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out15p.jpg?v=2021-06-30T03:07:44.261Z" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out15.jpg?v=2021-06-30T03:07:49.706Z" />
+			<Override
+				slot="Item 10"
+				columsNumb="4"
+				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out15p.jpg?v=2021-06-30T03:07:44.261Z"
+				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out15.jpg?v=2021-06-30T03:07:49.706Z"
+				stretchFull
+			/>
 		</Components.QuarklycommunityKitGallery>
 		<Components.Footerendd />
 		<Link
