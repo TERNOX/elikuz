@@ -105,7 +105,7 @@ export default (() => {
 				</StackItem>
 				<StackItem width="33%" lg-width="50%" sm-width="100%" flex="200%">
 					<Text margin="0px" flex="0 1 auto" order="-1">
-						Voit reippasti tilata minulta valokuvauspalveluita, musiikki- ja mainos videoita sekä musiikkia yksityisille ihmisille ja yrityksille. Teen kuvauksia sekä omassa kotistudiossa että missä tahansa studion ulkopuolella.{" "}
+						Voit reippaasti tilata minulta valokuvauspalveluita, musiikki- ja mainos videoita sekä musiikkia yksityisille ihmisille ja yrityksille. Teen kuvauksia sekä omassa kotistudiossa että missä tahansa studion ulkopuolella.{" "}
 					</Text>
 				</StackItem>
 				<StackItem
