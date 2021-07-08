@@ -96,21 +96,21 @@ export default (() => {
 			</Text>
 		</Section>
 		<Components.QuarklycommunityKitGallery
-			galleryItemNumbProp="2"
+			galleryItemNumbProp="5"
 			borderWidthProp="0"
-			loaderFormatProp="all"
-			aspectRatioProp="4:3"
+			loaderFormatProp="scroll"
+			aspectRatioProp="auto"
 			columnsCountProp="3"
 			autoFillInProp
 			sm-overflow-x="hidden"
 			sm-overflow-y="hidden"
+			offScrollProp
 		>
-			<Override slot="Item 0" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/03.jpg?v=2021-06-30T03:06:41.487Z" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/03p.jpg?v=2021-06-30T03:06:32.204Z" fullObjectFit="none" />
+			<Override slot="Item 0" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/02.jpg?v=2021-07-08T15:14:59.074Z" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/02p.jpg?v=2021-07-08T15:14:53.710Z" fullObjectFit="none" />
 			<Override
 				slot="Item"
 				hover-transition="all 0.3s ease-in 0s"
 				hover-filter="brightness(130%)"
-				columsNumb="2"
 				stretchFull
 				showFullImage={false}
 				previewObjectFit="cover"
@@ -118,21 +118,14 @@ export default (() => {
 			/>
 			<Override
 				slot="Item 1"
-				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/02p.jpg?v=2021-06-30T03:06:55.694Z"
-				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/02.jpg?v=2021-06-30T03:07:02.337Z"
-				columsNumb="1"
-				rowsNumb="2"
+				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/05p.jpg?v=2021-07-08T15:11:46.007Z"
+				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/05.jpg?v=2021-07-08T15:11:53.347Z"
 				previewObjectFit="none"
+				stretchFull
 			/>
-			<Override slot="Item 2" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/3%20%282%29.jpg?v=2021-06-23T18:03:45.123Z" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/3%20%282%29.jpg?v=2021-06-23T18:03:45.123Z" previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/3%20%282%29.jpg?v=2021-06-23T18:03:45.123Z" />
-			<Override slot="Item 3" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/4.jpg?v=2021-06-23T18:03:56.370Z" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/4.jpg?v=2021-06-23T18:03:56.370Z" />
-			<Override
-				slot="Item 4"
-				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/5.jpg?v=2021-06-23T18:03:56.371Z"
-				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/5.jpg?v=2021-06-23T18:03:56.371Z"
-				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/5.jpg?v=2021-06-23T18:03:56.371Z"
-				previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/5.jpg?v=2021-06-23T18:03:56.371Z"
-			/>
+			<Override slot="Item 2" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/06p.jpg?v=2021-07-08T15:10:34.840Z" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/06.jpg?v=2021-07-08T15:10:43.099Z" />
+			<Override slot="Item 3" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/07p.jpg?v=2021-07-08T15:39:53.285Z" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/07.jpg?v=2021-07-08T15:39:45.201Z" columsNumb="2" />
+			<Override slot="Item 4" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/08p.jpg?v=2021-07-08T15:41:02.141Z" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/08.jpg?v=2021-07-08T15:41:09.191Z" />
 			<Override slot="Item 5" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/6%20%282%29.jpg?v=2021-06-23T18:04:08.862Z" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/6%20%282%29.jpg?v=2021-06-23T18:04:08.862Z" previewSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/6%20%282%29.jpg?v=2021-06-23T18:04:08.862Z" />
 			<Override slot="Item 6" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/7.jpg?v=2021-06-23T18:04:17.339Z" />
 		</Components.QuarklycommunityKitGallery>

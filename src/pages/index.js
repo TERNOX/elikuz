@@ -25,12 +25,12 @@ export default (() => {
 			showLink={false}
 			showText={false}
 			autoPlay
-			autoPlayIntervalProp="4s"
+			autoPlayIntervalProp="3.5s"
 			functionProp="ease-in-out"
-			durationProp="0.7s"
-			slidesProp="8"
+			durationProp="0.6s"
+			slidesProp="9"
 			position="relative"
-			autoPlayPauseProp="6s"
+			autoPlayPauseProp="4s"
 		>
 			<Override slot="Slide Text 1">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -47,7 +47,7 @@ export default (() => {
 			/>
 			<Override
 				slot="Slide Image 1"
-				src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out11p.jpg?v=2021-06-30T02:56:24.262Z"
+				src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0012p.jpg?v=2021-06-30T02:58:23.252Z"
 				object-fit="contain"
 				display="inline-block"
 				border-color="rgba(0, 0, 0, 0)"
@@ -69,7 +69,7 @@ export default (() => {
 				background="--color-darkL2"
 				position="sticky"
 			/>
-			<Override slot="Slide Image 5" object-fit="contain" background="--color-darkL2" src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0012p.jpg?v=2021-06-30T02:58:23.252Z" />
+			<Override slot="Slide Image 5" object-fit="contain" background="--color-darkL2" src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/13p.jpg?v=2021-07-08T12:41:01.669Z" />
 			<Override slot="Slide Image 6" object-fit="contain" src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/8p.jpg?v=2021-06-30T02:58:41.422Z" background="--color-darkL2" />
 			<Override slot="Slide Image 7" src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/01p.jpg?v=2021-06-30T02:59:02.476Z" object-fit="contain" background="--color-darkL2" />
 			<Override
@@ -77,11 +77,12 @@ export default (() => {
 				object-fit="contain"
 				background="--color-darkL2"
 				cursor="zoom-in"
-				src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out8p.jpg?v=2021-06-30T02:59:44.895Z"
+				src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/11.jpg?v=2021-06-27T14:26:45.108Z"
 			/>
 			<Override slot="Arrow" background="rgba(0, 0, 0, 0) linear-gradient(0deg,rgba(0,0,0,0) 0%,rgba(0, 0, 0, 0) 100%)" />
 			<Override slot="Arrow Next" background="rgba(0, 0, 0, 0) linear-gradient(0deg,rgba(0,0,0,0) 0%,rgba(0, 0, 0, 0) 100%)" />
 			<Override slot="Arrow Prev" background="rgba(0, 0, 0, 0)" />
+			<Override slot="Slide Image 9" src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/04p.jpg?v=2021-07-08T12:46:33.606Z" object-fit="contain" />
 		</Components.QuarklycommunityKitCarousel>
 		<Section
 			padding="140px 0"
@@ -100,7 +101,7 @@ export default (() => {
 					flex="200%"
 				>
 					<Text margin="0px">
-						ELIKUZ Media on oululainen toiminimi, joka tarjoaa monipuolista audiovisuaalista sisältöä. Olen jo monta vuotta ammattilainen video- ja valokuvatuottaja sekä säveltäjä ja käsikirjoittaja.{" "}
+						ELIKUZ Media on oululainen toiminimi, joka tarjoaa monipuolista audiovisuaalista sisältöä. Olen kokenut ammattilainen video- ja valokuvatuottaja sekä säveltäjä ja käsikirjoittaja.{" "}
 					</Text>
 				</StackItem>
 				<StackItem width="33%" lg-width="50%" sm-width="100%" flex="200%">

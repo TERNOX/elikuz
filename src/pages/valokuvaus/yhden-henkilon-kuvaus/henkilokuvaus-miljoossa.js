@@ -62,10 +62,8 @@ export default (() => {
 				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0.jpg?v=2021-06-25T22:51:12.820Z"
 				transition="visibility --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
 				opacity="1"
-				columsNumb="5"
 				sm-overflow-x="hidden"
 				sm-overflow-y="hidden"
-				rowsNumb="5"
 			/>
 			<Override
 				slot="Item 1"
@@ -103,11 +101,10 @@ export default (() => {
 			<Override slot="Item 7" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out3.jpg?v=2021-06-30T03:12:31.739Z" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out3p.jpg?v=2021-06-30T03:12:25.645Z" columsNumb="4" />
 			<Override
 				slot="Item 9"
-				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out10p.jpg?v=2021-06-30T03:14:53.419Z"
-				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out10.jpg?v=2021-06-30T03:14:59.804Z"
-				columsNumb="4"
-				rowsNumb="3"
+				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out16p.jpg?v=2021-07-08T16:05:50.624Z"
+				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out16.jpg?v=2021-07-08T16:05:42.311Z"
 				stretchFull
+				columsNumb="3"
 			/>
 			<Override
 				slot="Item 8"
@@ -121,10 +118,10 @@ export default (() => {
 			</Override>
 			<Override
 				slot="Item 10"
-				columsNumb="4"
 				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out15p.jpg?v=2021-06-30T03:07:44.261Z"
 				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out15.jpg?v=2021-06-30T03:07:49.706Z"
 				stretchFull
+				columsNumb="5"
 			/>
 		</Components.QuarklycommunityKitGallery>
 		<Components.Footerendd />
