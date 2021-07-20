@@ -28,7 +28,7 @@ export default (() => {
 			autoPlayIntervalProp="3.5s"
 			functionProp="ease-in-out"
 			durationProp="0.6s"
-			slidesProp="9"
+			slidesProp="10"
 			position="relative"
 			autoPlayPauseProp="4s"
 		>
@@ -83,6 +83,7 @@ export default (() => {
 			<Override slot="Arrow Next" background="rgba(0, 0, 0, 0) linear-gradient(0deg,rgba(0,0,0,0) 0%,rgba(0, 0, 0, 0) 100%)" />
 			<Override slot="Arrow Prev" background="rgba(0, 0, 0, 0)" />
 			<Override slot="Slide Image 9" src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/04p.jpg?v=2021-07-08T12:46:33.606Z" object-fit="contain" />
+			<Override slot="Slide Image 10" src="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/21p.jpg?v=2021-07-20T18:53:41.283Z" object-fit="contain" />
 		</Components.QuarklycommunityKitCarousel>
 		<Section
 			padding="140px 0"
