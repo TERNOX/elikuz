@@ -73,7 +73,7 @@ export default (() => {
 			</Box>
 		</Section>
 		<Components.QuarklycommunityKitGallery galleryItemNumbProp="1" columnsCountProp="1">
-			<Override slot="Item" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/21p.jpg?v=2021-07-20T19:22:09.503Z" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/21p.jpg?v=2021-07-20T19:22:09.503Z" />
+			<Override slot="Item" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/p2.jpg?v=2021-07-20T22:36:08.958Z" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/21p.jpg?v=2021-07-20T19:22:09.503Z" />
 		</Components.QuarklycommunityKitGallery>
 		<Components.Footerendd />
 		<Link

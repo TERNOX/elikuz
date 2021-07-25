@@ -103,7 +103,7 @@ export default (() => {
 			sm-overflow-x="hidden"
 			sm-overflow-y="hidden"
 		>
-			<Override slot="Item 0" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/1.jpg?v=2021-06-30T03:01:01.682Z" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/19p.jpg?v=2021-07-20T19:09:09.790Z" />
+			<Override slot="Item 0" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/19.jpg?v=2021-07-25T19:25:55.157Z" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/19p.jpg?v=2021-07-20T19:09:09.790Z" />
 			<Override
 				slot="Item"
 				hover-transition="all 0.3s ease-in 0s"
