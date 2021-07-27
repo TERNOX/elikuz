@@ -50,7 +50,7 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Components.Ebafoto>
+		<Components.Ebafoto galleryItemNumbProp="11">
 			<Override
 				slot="Item 0"
 				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/001p.jpg?v=2021-06-30T03:16:15.836Z"
@@ -116,6 +116,8 @@ export default (() => {
 				fullSrcSet="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/009.jpg?v=2021-06-30T03:23:34.278Z "
 				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/009.jpg?v=2021-06-30T03:23:34.278Z"
 			/>
+			<Override slot="Item 9" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0013p.jpg?v=2021-07-27T08:53:08.796Z" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0013.jpg?v=2021-07-27T08:53:19.944Z" columsNumb="2" />
+			<Override slot="Item 10" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0014p.jpg?v=2021-07-27T08:54:31.082Z" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0014.jpg?v=2021-07-27T08:54:37.000Z" columsNumb="2" />
 		</Components.Ebafoto>
 		<Components.Footerendd />
 		<Link

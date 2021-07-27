@@ -2,7 +2,8 @@
     "name": "quarkly-export",
     "scripts": {
         "build": "gatsby build",
-        "build:clean": "CI=false npm run clean && npm run build",
+        "build:clean": "npm run clean && npm run build",
+        "build:ci": "cross-env CI=false npm run build:clean",
         "develop": "gatsby develop",
         "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
         "start": "npm run develop",
@@ -38,7 +39,8 @@
     },
     "devDependencies": {
         "postcss": "^8.3.5",
-        "prettier": "2.0.5"
+        "prettier": "2.0.5",
+        "cross-env": "^7.0.3"
     },
     "quarklyMeta": {
         "projectUid": "60a42e2413e4b0001f82a12d",
