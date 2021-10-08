@@ -28,7 +28,7 @@ export default (() => {
 			<Override slot="SectionContent" sm-align-items="center" />
 			<Box max-width="340px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
 				<Text as="h2" font="--headline2" margin="0 0 12px 0">
-					Pitkä mainos 100-200 €
+					Pitkä mainos 150-250 €
 				</Text>
 				<Text font="--base">
 					• Videon pituus 3-6 min.

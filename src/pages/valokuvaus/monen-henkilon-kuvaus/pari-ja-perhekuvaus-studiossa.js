@@ -41,7 +41,7 @@ export default (() => {
 					text-transform="uppercase"
 					margin="6px 0"
 				>
-					49 €{" "}
+					55 €{" "}
 				</Text>
 				<Text as="h2" font="--headline2" margin="0 0 12px 0" color="#ffffff">
 					Pari- ja perhekuvaus studiossa
@@ -72,8 +72,18 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Components.QuarklycommunityKitGallery galleryItemNumbProp="1" columnsCountProp="1">
+		<Components.QuarklycommunityKitGallery
+			galleryItemNumbProp="4"
+			columnsCountProp="2"
+			offScrollProp
+			overflow-x="visible"
+			overflow-y="visible"
+			borderWidthProp="0"
+		>
 			<Override slot="Item" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/p2.jpg?v=2021-07-20T22:36:08.958Z" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/21p.jpg?v=2021-07-20T19:22:09.503Z" />
+			<Override slot="Item 1" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/p5.jpg?v=2021-10-08T06:28:46.036Z" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/p5p.jpg?v=2021-10-08T06:28:52.472Z" />
+			<Override slot="Item 2" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/p3.jpg?v=2021-10-08T06:29:03.662Z" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/p3p.jpg?v=2021-10-08T06:29:09.207Z" />
+			<Override slot="Item 3" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/p4.jpg?v=2021-10-08T06:29:20.585Z" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/p4p.jpg?v=2021-10-08T06:29:30.317Z" />
 		</Components.QuarklycommunityKitGallery>
 		<Components.Footerendd />
 		<Link

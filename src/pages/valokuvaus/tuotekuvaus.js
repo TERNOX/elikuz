@@ -36,7 +36,7 @@ export default (() => {
 					margin="6px 0"
 				/>
 				<Text as="h2" font="--headline2" margin="0 0 12px 0">
-					Tuotekuvaus 29 €{"\n\n"}
+					Tuotekuvaus 35 €{"\n\n"}
 				</Text>
 				<Text font="--base">
 					<Span

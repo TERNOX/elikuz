@@ -35,7 +35,7 @@ export default (() => {
 					text-transform="uppercase"
 					margin="6px 0"
 				>
-					55 €{" "}
+					60 €{" "}
 				</Text>
 				<Text as="h2" font="--headline2" margin="0 0 12px 0">
 					Lavastettu pari- ja perhekuvaus studiossa

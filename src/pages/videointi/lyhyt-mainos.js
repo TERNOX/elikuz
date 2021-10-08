@@ -34,7 +34,7 @@ export default (() => {
 				text-align="left"
 			>
 				<Text as="h2" font="--headline2" margin="0 0 12px 0">
-					Lyhyt mainos 80-150 €
+					Lyhyt mainos 100-200 €
 				</Text>
 				<Text font="--base">
 					• Videon pituus 1-2 min

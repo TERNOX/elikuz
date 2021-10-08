@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link } from "@quarkly/widgets";
+import { Theme, Link, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -24,13 +24,26 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/ELIKUZ%20Media%20logo.png?v=2021-06-18T22:56:31.034Z"} />
 		</Helmet>
 		<Components.Top />
-		<Components.Primer />
+		<Components.Primer>
+			<Override slot="text">
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					60 €{"\n\n"}
+				</Strong>
+			</Override>
+		</Components.Primer>
 		<Components.QuarklycommunityKitGallery
 			loaderFormatProp="scroll"
 			autoFillInProp
 			hideLoaderFullImage={false}
 			offScrollProp={false}
-			galleryItemNumbProp="11"
+			galleryItemNumbProp="12"
 			aspectRatioProp="auto"
 			hideLoaderPreviewImage={false}
 			columnsCountProp="8"
@@ -59,7 +72,6 @@ export default (() => {
 				previewObjectFit="cover"
 				previewLoading="eager"
 				fullLoading="eager"
-				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/0.jpg?v=2021-06-25T22:51:12.820Z"
 				transition="visibility --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
 				opacity="1"
 				sm-overflow-x="hidden"
@@ -104,7 +116,7 @@ export default (() => {
 				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out16p.jpg?v=2021-07-08T16:05:50.624Z"
 				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out16.jpg?v=2021-07-08T16:05:42.311Z"
 				stretchFull
-				columsNumb="3"
+				columsNumb="2"
 			/>
 			<Override
 				slot="Item 8"
@@ -118,11 +130,12 @@ export default (() => {
 			</Override>
 			<Override
 				slot="Item 10"
-				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out15p.jpg?v=2021-06-30T03:07:44.261Z"
-				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out15.jpg?v=2021-06-30T03:07:49.706Z"
+				previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out19p.jpg?v=2021-10-08T06:33:24.361Z"
+				fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out19.jpg?v=2021-10-08T06:33:16.509Z"
 				stretchFull
-				columsNumb="5"
+				columsNumb="4"
 			/>
+			<Override slot="Item 11" fullSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out20.jpg?v=2021-10-08T06:32:42.617Z" previewSrc="https://uploads.quarkly.io/60a42e2413e4b0001f82a12d/images/out20p.jpg?v=2021-10-08T06:33:54.070Z" columsNumb="2" />
 		</Components.QuarklycommunityKitGallery>
 		<Components.Footerendd />
 		<Link

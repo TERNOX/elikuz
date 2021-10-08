@@ -28,7 +28,7 @@ export default (() => {
 			autoPlayIntervalProp="3.5s"
 			functionProp="ease-in-out"
 			durationProp="0.6s"
-			slidesProp="10"
+			slidesProp="9"
 			position="relative"
 			autoPlayPauseProp="4s"
 		>
